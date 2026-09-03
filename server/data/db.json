@@ -1,0 +1,4289 @@
+{
+  "User": [
+    {
+      "name": "ফারহানা রহমান",
+      "email": "accountant@complybd.com",
+      "password": "$2a$10$xkvLOV4skEjO2dzqPFg/4ed9askpITB0eXP69BaD1G.RobHuMfaB2",
+      "role": "accountant",
+      "_id": "6a998244dc6bcc72cf135515",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "নাবিলা চৌধুরী",
+      "email": "reviewer@complybd.com",
+      "password": "$2a$10$xkvLOV4skEjO2dzqPFg/4ed9askpITB0eXP69BaD1G.RobHuMfaB2",
+      "role": "reviewer",
+      "_id": "6a998244dc6bcc72cf135516",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "রাকিব হাসান",
+      "email": "owner@complybd.com",
+      "password": "$2a$10$xkvLOV4skEjO2dzqPFg/4ed9askpITB0eXP69BaD1G.RobHuMfaB2",
+      "role": "owner",
+      "_id": "6a998244dc6bcc72cf135517",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "সাবরিনা আক্তার",
+      "email": "owner2@complybd.com",
+      "password": "$2a$10$xkvLOV4skEjO2dzqPFg/4ed9askpITB0eXP69BaD1G.RobHuMfaB2",
+      "role": "owner",
+      "_id": "6a998244dc6bcc72cf135518",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "ইমরান কবির",
+      "email": "owner3@complybd.com",
+      "password": "$2a$10$xkvLOV4skEjO2dzqPFg/4ed9askpITB0eXP69BaD1G.RobHuMfaB2",
+      "role": "owner",
+      "_id": "6a998244dc6bcc72cf135519",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    }
+  ],
+  "Business": [
+    {
+      "name": "ধানমন্ডি স্পাইস কিচেন",
+      "category": "Restaurant",
+      "location": "ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত)",
+      "ownerId": "6a998244dc6bcc72cf135517",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "authorized",
+      "tin": "123456789012",
+      "vatBin": "000123456-0101",
+      "_id": "6a998244dc6bcc72cf13551a",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "গুলশান গার্ডেন বিস্ট্রো",
+      "category": "Restaurant",
+      "location": "গুলশান-২, ঢাকা",
+      "ownerId": "6a998244dc6bcc72cf135518",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "authorized",
+      "tin": "123456789013",
+      "vatBin": "000123457-0101",
+      "_id": "6a998244dc6bcc72cf13551b",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "বনানী মিনি মার্ট",
+      "category": "Retail Shop",
+      "location": "বনানী ১১, ঢাকা",
+      "ownerId": "6a998244dc6bcc72cf135517",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "authorized",
+      "tin": "123456789014",
+      "vatBin": "000123458-0101",
+      "_id": "6a998244dc6bcc72cf13551c",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "মতিঝিল গ্যাজেট হাব",
+      "category": "Electronics Shop",
+      "location": "মতিঝিল সি/এ, ঢাকা",
+      "ownerId": "6a998244dc6bcc72cf135519",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "authorized",
+      "tin": "123456789015",
+      "vatBin": "000123459-0101",
+      "_id": "6a998244dc6bcc72cf13551d",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "নিউ মার্কেট স্টাইল হাউস",
+      "category": "Clothing Business",
+      "location": "নিউ মার্কেট, ঢাকা",
+      "ownerId": "6a998244dc6bcc72cf135518",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "authorized",
+      "tin": "123456789016",
+      "vatBin": "000123460-0101",
+      "_id": "6a998244dc6bcc72cf13551e",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "name": "কেরানীগঞ্জ লাইট ইঞ্জিনিয়ারিং",
+      "category": "Small Manufacturer",
+      "location": "কেরানীগঞ্জ, ঢাকা",
+      "ownerId": "6a998244dc6bcc72cf135519",
+      "accountantId": "6a998244dc6bcc72cf135515",
+      "authorizationStatus": "pending",
+      "tin": "123456789017",
+      "vatBin": "000123461-0101",
+      "_id": "6a998244dc6bcc72cf13551f",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    }
+  ],
+  "Circular": [
+    {
+      "title": "এসআরও নং ১৫৮-আইন/২০২৬/২৭ — রেস্তোরাঁ ও খাদ্য সেবায় মূসক হার পুনর্নির্ধারণ",
+      "source": "NBR / VAT Wing",
+      "sourceUrl": "https://nbr.gov.bd/circulars/sro-158-2026",
+      "publishedDate": "2026-06-12T00:00:00.000Z",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "documentText": "জাতীয় রাজস্ব বোর্ড\nমূসক উইং, ঢাকা\n\nএসআরও নং ১৫৮-আইন/২০২৬/২৭\nতারিখ: ১২ জুন ২০২৬\n\nবিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ।\n\nজাতীয় রাজস্ব বোর্ড এতদ্বারা জানাচ্ছে যে, ১৫ সেপ্টেম্বর ২০২৬ তারিখ থেকে সকল নিবন্ধিত রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য হবে। পূর্বে প্রযোজ্য হ্রাসকৃত হার বাতিল করা হলো।\n\nপ্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে এবং মাসিক মূসক রিটার্ন ই-পেপারলেস প্ল্যাটফর্মে দাখিল করতে হবে।\n\nঅমান্যকারীর বিরুদ্ধে জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ, যেটি বেশি, আরোপ করা যাবে।\n\nসূত্র: মূল্য সংযোজন কর ও সম্পূরক শুল্ক আইন, ২০১২।",
+      "status": "extracted",
+      "_id": "6a998244dc6bcc72cf135520",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "title": "পরিপত্র নং ০৪/মূসক/২০২৬ — খুচরা দোকানে ইলেকট্রনিক ফিসকাল ডিভাইস",
+      "source": "NBR",
+      "sourceUrl": "https://nbr.gov.bd/circulars/vat-04-2026",
+      "publishedDate": "2026-05-20T00:00:00.000Z",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "documentText": "জাতীয় রাজস্ব বোর্ড\nমূসক অনুবিভাগ\n\nপরিপত্র নং ০৪/মূসক/২০২৬\nতারিখ: ২০ মে ২০২৬\n\nবিষয়: খুচরা বিক্রেতাদের জন্য ইলেকট্রনিক ফিসকাল ডিভাইস (EFD) বাধ্যতামূলককরণ।\n\n১ নভেম্বর ২০২৬ থেকে বার্ষিক টার্নওভার ৫০ লক্ষ টাকার অধিক সকল খুচরা দোকানকে অনুমোদিত ইলেকট্রনিক ফিসকাল ডিভাইস স্থাপন করতে হবে। POS চালান স্বয়ংক্রিয়ভাবে এনবিআর সার্ভারে প্রেরিত হবে।\n\nডিভাইস সংযোগ বিচ্ছিন্ন রাখা বা চালান ইস্যু না করা হলে জরিমানা ৫০,০০০ টাকা এবং নিবন্ধন স্থগিত হতে পারে।\n\nইলেকট্রনিক্স খুচরা বিক্রেতাদের ক্ষেত্রে সিরিয়াল নম্বর ও ওয়ারেন্টি তথ্য চালানে উল্লেখ বাধ্যতামূলক।",
+      "status": "extracted",
+      "_id": "6a998244dc6bcc72cf135521",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "title": "এসআরও নং ৯২-আইন/২০২৬ — পোশাক খুচরা ও ক্ষুদ্র উৎপাদনকারীর উৎসে কর",
+      "source": "NBR / Income Tax",
+      "sourceUrl": "https://nbr.gov.bd/circulars/sro-92-2026",
+      "publishedDate": "2026-04-08T00:00:00.000Z",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "documentText": "জাতীয় রাজস্ব বোর্ড\nআয়কর অনুবিভাগ\n\nএসআরও নং ৯২-আইন/২০২৬\nতারিখ: ০৮ এপ্রিল ২০২৬\n\nবিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন।\n\n১৫ ডিসেম্বর ২০২৬ থেকে পোশাক খুচরা প্রতিষ্ঠান স্থানীয় গার্মেন্টস সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করবে। ক্ষুদ্র উৎপাদনকারী যদি মূসক নিবন্ধিত হয়, তবে চালানে BIN উল্লেখ করতে হবে।\n\nকারখানা প্রাঙ্গণে নগদ লেনদেন ২ লক্ষ টাকার অধিক হলে ব্যাংক ট্রান্সফার বাধ্যতামূলক।\n\nঅমান্যে জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত।",
+      "status": "extracted",
+      "_id": "6a998244dc6bcc72cf135522",
+      "createdAt": "2026-09-03T14:20:52.566Z"
+    },
+    {
+      "title": "এসআরও নং ২১১-আইন/২০২৬/৩১ — রেস্তোরাঁ ও খাদ্য সেবায় মূসক হার পুনর্নির্ধারণ",
+      "source": "NBR / VAT Wing",
+      "sourceUrl": "https://nbr.gov.bd/circulars/sro-211-2026",
+      "publishedDate": "2026-07-14T00:00:00.000Z",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "documentText": "জাতীয় রাজস্ব বোর্ড\nমূসক উইং, রাজস্ব ভবন, ঢাকা\n\nএসআরও নং ২১১-আইন/২০২৬/৩১\nস্মারক তারিখ: ১৪ জুলাই ২০২৬\n\nবিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ।\n\n১। মূল্য সংযোজন কর ও সম্পূরক শুল্ক আইন, ২০১২ এর ক্ষমতাবলে জাতীয় রাজস্ব বোর্ড এতদ্বারা নির্দেশ প্রদান করিতেছে যে, নিবন্ধিত রেস্তোরাঁ ও খাদ্য সেবা প্রতিষ্ঠানের সরবরাহের উপর ১৫% মূসক আরোপিত হইবে।\n\n২। এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে।\n\n৩। প্রতিটি রেস্তোরাঁকে গ্রাহকের অনুকূলে ইলেকট্রনিক চালান ইস্যু করিতে হইবে এবং চালানে মূসকের পরিমাণ পৃথকভাবে প্রদর্শন করিতে হইবে।\n\n৪। মাসিক মূসক রিটার্ন পরবর্তী মাসের ১৫ তারিখের মধ্যে অনলাইনে দাখিল করিতে হইবে।\n\n৫। নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে।\n\n৬। এতদ্‌সংক্রান্ত পূর্ববর্তী সকল আদেশ, যতটুকু এই আদেশের সহিত অসামঞ্জস্যপূর্ণ, বাতিল বলিয়া গণ্য হইবে।\n\nস্বাক্ষরিত\nসদস্য (মূসক নীতি)\nজাতীয় রাজস্ব বোর্ড",
+      "status": "extracted",
+      "_id": "6a998244dc6bcc72cf135523",
+      "createdAt": "2026-09-03T14:20:52.567Z"
+    },
+    {
+      "title": "পরিপত্র নং ০৯/মূসক/২০২৬ — ক্ষুদ্র উৎপাদনকারীর হিসাব সংরক্ষণ ও ডিজিটাল নথি",
+      "source": "NBR",
+      "sourceUrl": "https://nbr.gov.bd/circulars/vat-09-2026",
+      "publishedDate": "2026-01-22T00:00:00.000Z",
+      "effectiveDate": "2026-04-01T00:00:00.000Z",
+      "documentText": "জাতীয় রাজস্ব বোর্ড\nমূসক অনুবিভাগ\n\nপরিপত্র নং ০৯/মূসক/২০২৬\nস্মারক তারিখ: ২২ জানুয়ারি ২০২৬\n\nবিষয়: ক্ষুদ্র উৎপাদনকারী ও কারখানা পর্যায়ে হিসাব সংরক্ষণ পদ্ধতির আধুনিকায়ন।\n\n১। ক্ষুদ্র উৎপাদনকারী প্রতিষ্ঠানসমূহকে কাঁচামাল ক্রয়, উৎপাদন ও সরবরাহের হিসাব সংরক্ষণ ডিজিটাল পদ্ধতিতে সম্পন্ন করিতে হইবে।\n\n২। কারখানা প্রাঙ্গণে রক্ষিত নথি চাহিবামাত্র সংশ্লিষ্ট মূসক কর্মকর্তার নিকট উপস্থাপন করিতে হইবে।\n\n৩। ডিজিটাল হিসাব সংরক্ষণের কারিগরি নির্দেশিকা বোর্ডের ওয়েবসাইটে পর্যায়ক্রমে প্রকাশ করা হইবে।\n\n৪। এই পরিপত্রের কার্যকর তারিখ পরবর্তী প্রজ্ঞাপনের মাধ্যমে জানানো হইবে।\n\n৫। নির্দেশনা প্রতিপালনে ব্যর্থতার ক্ষেত্রে প্রযোজ্য ব্যবস্থা পরবর্তী আদেশে নির্ধারিত হইবে।\n\nস্বাক্ষরিত\nদ্বিতীয় সচিব (মূসক বাস্তবায়ন)\nজাতীয় রাজস্ব বোর্ড",
+      "status": "ingested",
+      "_id": "6a998244dc6bcc72cf135524",
+      "createdAt": "2026-09-03T14:20:52.567Z"
+    }
+  ],
+  "Obligation": [
+    {
+      "circularId": "6a998244dc6bcc72cf135520",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "requiredAction": "চালানে ১৫% মূসক আলাদাভাবে দেখান এবং POS/বিলিং সিস্টেমে নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ, যেটি বেশি, আরোপ করা যাবে",
+      "sourceSpans": [
+        {
+          "field": "vatRate",
+          "text": "১৫% মূসক",
+          "start": 259,
+          "end": 267
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ২৫,০০০ টাকা",
+          "start": 469,
+          "end": 488
+        },
+        {
+          "field": "categoryHint",
+          "text": "রেস্তোরাঁ",
+          "start": 88,
+          "end": 97
+        }
+      ],
+      "summaryBangla": "১৫ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য। চালানে মূসক আলাদা দেখান এবং মাসিক ই-রিটার্ন দিন।",
+      "confidence": 94,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "_id": "6a998244dc6bcc72cf135525",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.569Z",
+      "publishedAt": "2026-09-03T14:20:52.568Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135520",
+      "businessCategory": "Restaurant",
+      "obligationType": "E-Return Filing",
+      "requiredAction": "প্রতি মাসের ১৫ তারিখের মধ্যে ই-পেপারলেস প্ল্যাটফর্মে মূসক রিটার্ন দাখিল করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ",
+      "sourceSpans": [
+        {
+          "field": "filing",
+          "text": "মাসিক মূসক রিটার্ন",
+          "start": 388,
+          "end": 406
+        }
+      ],
+      "summaryBangla": "রেস্তোরাঁগুলোকে ই-পেপারলেস প্ল্যাটফর্মে মাসিক মূসক রিটার্ন দাখিল করতে হবে।",
+      "confidence": 81,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "_id": "6a998244dc6bcc72cf135526",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.569Z",
+      "publishedAt": "2026-09-03T14:20:52.569Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135521",
+      "businessCategory": "Retail Shop",
+      "obligationType": "EFD Device Mandate",
+      "requiredAction": "অনুমোদিত ইলেকট্রনিক ফিসকাল ডিভাইস স্থাপন করুন এবং সংযোগ সচল রাখুন।",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৫০,০০০ টাকা এবং নিবন্ধন স্থগিত হতে পারে",
+      "sourceSpans": [
+        {
+          "field": "device",
+          "text": "ইলেকট্রনিক ফিসকাল ডিভাইস",
+          "start": 108,
+          "end": 132
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৫০,০০০ টাকা",
+          "start": 393,
+          "end": 412
+        }
+      ],
+      "summaryBangla": "১ নভেম্বর ২০২৬ থেকে ৫০ লক্ষ টাকার অধিক টার্নওভারের খুচরা দোকানে EFD স্থাপন বাধ্যতামূলক।",
+      "confidence": 90,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "_id": "6a998244dc6bcc72cf135527",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.569Z",
+      "publishedAt": "2026-09-03T14:20:52.569Z",
+      "matchedBusinessCount": 1
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135521",
+      "businessCategory": "Electronics Shop",
+      "obligationType": "Invoice Data Fields",
+      "requiredAction": "চালানে পণ্যের সিরিয়াল নম্বর ও ওয়ারেন্টি তথ্য যোগ করুন।",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৫০,০০০ টাকা",
+      "sourceSpans": [
+        {
+          "field": "serial",
+          "text": "সিরিয়াল নম্বর",
+          "start": 483,
+          "end": 497
+        }
+      ],
+      "summaryBangla": "ইলেকট্রনিক্স দোকানের চালানে পণ্যের সিরিয়াল নম্বর ও ওয়ারেন্টি তথ্য থাকতে হবে।",
+      "confidence": 77,
+      "groundingStatus": "partial",
+      "reviewStatus": "pending",
+      "_id": "6a998244dc6bcc72cf135528",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135521",
+      "businessCategory": "Retail Shop",
+      "obligationType": "Server Connectivity",
+      "requiredAction": "EFD ডিভাইস অনলাইনে রাখুন; সংযোগ বিচ্ছিন্ন হলে দ্রুত ঠিক করান।",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "ডিভাইস সংযোগ বিচ্ছিন্ন রাখা বা চালান ইস্যু না করা হলে জরিমানা ৫০,০০০ টাকা",
+      "sourceSpans": [],
+      "summaryBangla": "EFD অফলাইনে রাখা যাবে না; চালান এনবিআর সার্ভারে স্বয়ংক্রিয় যাবে — এই খণ্ডের কিছু শর্ত উৎস পাঠে পুরোপুরি মিলছে না।",
+      "confidence": 38,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "verified",
+      "_id": "6a998244dc6bcc72cf135529",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:31:11.608Z",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "autoVerified": false,
+      "routingReason": "Verified by নাবিলা চৌধুরী after review.",
+      "matchedBusinessCount": 1,
+      "publishedAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Clothing Business",
+      "obligationType": "Withholding Tax",
+      "requiredAction": "স্থানীয় সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করে জমা দিন।",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "sourceSpans": [
+        {
+          "field": "wht",
+          "text": "৫% উৎসে কর",
+          "start": 238,
+          "end": 248
+        }
+      ],
+      "summaryBangla": "পোশাক খুচরা প্রতিষ্ঠান স্থানীয় সরবরাহকারীকে পরিশোধে ৫% উৎসে কর কর্তন করবে।",
+      "confidence": 86,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "_id": "6a998244dc6bcc72cf13552a",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.570Z",
+      "publishedAt": "2026-09-03T14:20:52.570Z",
+      "matchedBusinessCount": 1
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "BIN on Invoice",
+      "requiredAction": "প্রতিটি চালানে প্রতিষ্ঠানের BIN নম্বর উল্লেখ করুন।",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ",
+      "sourceSpans": [
+        {
+          "field": "bin",
+          "text": "BIN উল্লেখ করতে হবে",
+          "start": 314,
+          "end": 333
+        }
+      ],
+      "summaryBangla": "মূসক নিবন্ধিত ক্ষুদ্র উৎপাদনকারীকে চালানে BIN উল্লেখ করতে হবে।",
+      "confidence": 72,
+      "groundingStatus": "partial",
+      "reviewStatus": "pending",
+      "_id": "6a998244dc6bcc72cf13552b",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Cash Transaction Limit",
+      "requiredAction": "২ লক্ষ টাকার বেশি লেনদেনে ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ",
+      "sourceSpans": [
+        {
+          "field": "cash",
+          "text": "নগদ লেনদেন ২ লক্ষ টাকা",
+          "start": 354,
+          "end": 376
+        }
+      ],
+      "summaryBangla": "কারখানায় ২ লক্ষ টাকার অধিক নগদ লেনদেন নিষিদ্ধ; ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "confidence": 22,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "rejected",
+      "verifiedBy": "6a998244dc6bcc72cf135516",
+      "_id": "6a998244dc6bcc72cf13552c",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135520",
+      "businessCategory": "Restaurant",
+      "obligationType": "Invoice Display",
+      "requiredAction": "প্রতিটি চালানে মূসকের পরিমাণ পৃথক লাইনে দেখান।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা",
+      "sourceSpans": [
+        {
+          "field": "invoice",
+          "text": "চালানে মূসক পৃথকভাবে প্রদর্শন",
+          "start": 345,
+          "end": 374
+        }
+      ],
+      "summaryBangla": "প্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে।",
+      "confidence": 88,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "verifiedBy": "6a998244dc6bcc72cf135515",
+      "_id": "6a998244dc6bcc72cf13552d",
+      "createdAt": "2026-09-03T14:20:52.567Z",
+      "version": 2,
+      "updatedAt": "2026-09-03T14:20:52.570Z",
+      "publishedAt": "2026-09-03T14:20:52.570Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a9984afdc6bcc72cf13555a",
+      "createdAt": "2026-09-03T14:31:11.711Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:31:11.711Z",
+      "publishedAt": "2026-09-03T14:31:11.711Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a9984f6dc6bcc72cf13556a",
+      "createdAt": "2026-09-03T14:32:22.897Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:32:22.897Z",
+      "publishedAt": "2026-09-03T14:32:22.897Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১৫ ডিসেম্বর ২০২৬ … জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত … ক্ষুদ্র উৎপাদনকারী",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Small Manufacturer",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "Withholding Tax",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-12-15",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162,
+          "context": "১৫ ডিসেম্বর ২০২৬ থেকে পোশাক খুচরা প্রতিষ্ঠান স্থানীয় গার্মেন্টস সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485,
+          "context": "অমান্যে জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "5",
+        "alternateCategories": [
+          "Clothing Business",
+          "Retail Shop"
+        ],
+        "effectiveDateReadable": "15 December 2026",
+        "effectiveDateBangla": "১৫ ডিসেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a9984f6dc6bcc72cf135573",
+      "createdAt": "2026-09-03T14:32:22.916Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:32:22.916Z",
+      "publishedAt": "2026-09-03T14:32:22.916Z",
+      "matchedBusinessCount": 0
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a998553dc6bcc72cf13557e",
+      "createdAt": "2026-09-03T14:33:55.088Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:33:55.089Z",
+      "publishedAt": "2026-09-03T14:33:55.089Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১৫ ডিসেম্বর ২০২৬ … জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত … ক্ষুদ্র উৎপাদনকারী",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Small Manufacturer",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "Withholding Tax",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-12-15",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162,
+          "context": "১৫ ডিসেম্বর ২০২৬ থেকে পোশাক খুচরা প্রতিষ্ঠান স্থানীয় গার্মেন্টস সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485,
+          "context": "অমান্যে জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "5",
+        "alternateCategories": [
+          "Clothing Business",
+          "Retail Shop"
+        ],
+        "effectiveDateReadable": "15 December 2026",
+        "effectiveDateBangla": "১৫ ডিসেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a998553dc6bcc72cf135587",
+      "createdAt": "2026-09-03T14:33:55.111Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:33:55.112Z",
+      "publishedAt": "2026-09-03T14:33:55.112Z",
+      "matchedBusinessCount": 0
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a99856ddc6bcc72cf135593",
+      "createdAt": "2026-09-03T14:34:21.289Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:34:21.290Z",
+      "publishedAt": "2026-09-03T14:34:21.290Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135522",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১৫ ডিসেম্বর ২০২৬ … জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত … ক্ষুদ্র উৎপাদনকারী",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Small Manufacturer",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "Withholding Tax",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143,
+          "context": "বিষয়: পোশাক ব্যবসা ও ক্ষুদ্র উৎপাদনকারীর সরবরাহে উৎসে কর কর্তন",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-12-15",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162,
+          "context": "১৫ ডিসেম্বর ২০২৬ থেকে পোশাক খুচরা প্রতিষ্ঠান স্থানীয় গার্মেন্টস সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485,
+          "context": "অমান্যে জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "ক্ষুদ্র উৎপাদনকারী",
+          "start": 102,
+          "end": 120
+        },
+        {
+          "field": "obligationType",
+          "text": "উৎসে কর কর্তন",
+          "start": 130,
+          "end": 143
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১৫ ডিসেম্বর ২০২৬",
+          "start": 146,
+          "end": 162
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+          "start": 427,
+          "end": 485
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "5",
+        "alternateCategories": [
+          "Clothing Business",
+          "Retail Shop"
+        ],
+        "effectiveDateReadable": "15 December 2026",
+        "effectiveDateBangla": "১৫ ডিসেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a99856ddc6bcc72cf13559c",
+      "createdAt": "2026-09-03T14:34:21.315Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:34:21.316Z",
+      "publishedAt": "2026-09-03T14:34:21.316Z",
+      "matchedBusinessCount": 0
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a9985aadc6bcc72cf1355a8",
+      "createdAt": "2026-09-03T14:35:22.533Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:35:22.533Z",
+      "publishedAt": "2026-09-03T14:35:22.533Z",
+      "matchedBusinessCount": 2
+    },
+    {
+      "circularId": "6a998244dc6bcc72cf135523",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "evidenceText": "১ সেপ্টেম্বর ২০২৬ … জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে … রেস্তোরাঁ",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "confidenceReasons": [
+        "Model self-reported confidence 90% (weight 0.35).",
+        "Deterministic grounding score 98% (weight 0.5).",
+        "Evidence completeness 100% (weight 0.15)."
+      ],
+      "aiConfidence": 90,
+      "extractionMethod": "deterministic-demo",
+      "fieldGrounding": [
+        {
+          "field": "businessCategory",
+          "extractedValue": "Restaurant",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "obligationType",
+          "extractedValue": "VAT Rate Change",
+          "grounded": true,
+          "matchType": "variant",
+          "score": 0.95,
+          "evidence": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173,
+          "context": "বিষয়: রেস্তোরাঁ, হোটেল ও খাদ্য সেবা প্রতিষ্ঠানে মূসক হার পুনর্নির্ধারণ এবং ইলেকট্রনিক চালান বাধ্যতামূলককরণ",
+          "evidenceClaimVerified": true,
+          "note": "Matched an equivalent surface form in the source text."
+        },
+        {
+          "field": "effectiveDate",
+          "extractedValue": "2026-09-01",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435,
+          "context": "এই আদেশ ১ সেপ্টেম্বর ২০২৬ তারিখ হইতে কার্যকর হবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        },
+        {
+          "field": "penalty",
+          "extractedValue": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "grounded": true,
+          "matchType": "exact",
+          "score": 1,
+          "evidence": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779,
+          "context": "নির্দেশনা অমান্য করিলে জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "evidenceClaimVerified": true,
+          "note": "Exact match in source text."
+        }
+      ],
+      "overallGroundingScore": 0.98,
+      "sourceEvidence": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "sourceSpans": [
+        {
+          "field": "businessCategory",
+          "text": "খাদ্য সেবা",
+          "start": 128,
+          "end": 138
+        },
+        {
+          "field": "obligationType",
+          "text": "হার পুনর্নির্ধারণ",
+          "start": 156,
+          "end": 173
+        },
+        {
+          "field": "effectiveDate",
+          "text": "১ সেপ্টেম্বর ২০২৬",
+          "start": 418,
+          "end": 435
+        },
+        {
+          "field": "penalty",
+          "text": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+          "start": 697,
+          "end": 779
+        }
+      ],
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "routingReason": "High confidence and all four checked fields grounded in the source text. Eligible for automatic verification.",
+      "autoVerified": true,
+      "pipelineVersion": "2.0.0",
+      "extractedFields": {
+        "vatRate": "15",
+        "alternateCategories": [
+          "Electronics Shop"
+        ],
+        "effectiveDateReadable": "1 September 2026",
+        "effectiveDateBangla": "১ সেপ্টেম্বর ২০২৬",
+        "dateSource": "document",
+        "penaltySource": "document"
+      },
+      "_id": "6a9985f7dc6bcc72cf1355b8",
+      "createdAt": "2026-09-03T14:36:39.303Z",
+      "version": 1,
+      "updatedAt": "2026-09-03T14:36:39.303Z",
+      "publishedAt": "2026-09-03T14:36:39.303Z",
+      "matchedBusinessCount": 2
+    }
+  ],
+  "Alert": [
+    {
+      "obligationId": "6a998244dc6bcc72cf135525",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১৫ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য। চালানে মূসক আলাদা দেখান এবং মাসিক ই-রিটার্ন দিন।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা)।",
+      "whatToDo": "করণীয়: চালানে ১৫% মূসক আলাদাভাবে দেখান এবং POS/বিলিং সিস্টেমে নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "acknowledged",
+      "acknowledgedAt": "2026-09-03T14:31:11.590Z",
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf13552e",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135525",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১৫ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য। চালানে মূসক আলাদা দেখান এবং মাসিক ই-রিটার্ন দিন।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: চালানে ১৫% মূসক আলাদাভাবে দেখান এবং POS/বিলিং সিস্টেমে নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "new",
+      "acknowledgedAt": null,
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf13552f",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135526",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "medium",
+      "title": "E-Return Filing — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: রেস্তোরাঁগুলোকে ই-পেপারলেস প্ল্যাটফর্মে মাসিক মূসক রিটার্ন দাখিল করতে হবে।",
+      "whatChanged": "নতুন মূসক রিটার্ন দাখিল সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা)।",
+      "whatToDo": "করণীয়: প্রতি মাসের ১৫ তারিখের মধ্যে ই-পেপারলেস প্ল্যাটফর্মে মূসক রিটার্ন দাখিল করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "acknowledged",
+      "acknowledgedAt": "2026-09-03T14:20:52.568Z",
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135530",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135526",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "medium",
+      "title": "E-Return Filing — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: রেস্তোরাঁগুলোকে ই-পেপারলেস প্ল্যাটফর্মে মাসিক মূসক রিটার্ন দাখিল করতে হবে।",
+      "whatChanged": "নতুন মূসক রিটার্ন দাখিল সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: প্রতি মাসের ১৫ তারিখের মধ্যে ই-পেপারলেস প্ল্যাটফর্মে মূসক রিটার্ন দাখিল করুন।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "acknowledged",
+      "acknowledgedAt": "2026-09-03T14:20:52.568Z",
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135531",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135527",
+      "businessId": "6a998244dc6bcc72cf13551c",
+      "priority": "medium",
+      "title": "EFD Device Mandate — বনানী মিনি মার্ট",
+      "messageBangla": "বনানী মিনি মার্ট: ১ নভেম্বর ২০২৬ থেকে ৫০ লক্ষ টাকার অধিক টার্নওভারের খুচরা দোকানে EFD স্থাপন বাধ্যতামূলক।",
+      "whatChanged": "নতুন ইলেকট্রনিক ফিসকাল ডিভাইস সংক্রান্ত নিয়ম ১ নভেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার খুচরা দোকান ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (বনানী মিনি মার্ট, বনানী ১১, ঢাকা)।",
+      "whatToDo": "করণীয়: অনুমোদিত ইলেকট্রনিক ফিসকাল ডিভাইস স্থাপন করুন এবং সংযোগ সচল রাখুন।",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "status": "new",
+      "acknowledgedAt": null,
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135532",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552a",
+      "businessId": "6a998244dc6bcc72cf13551e",
+      "priority": "medium",
+      "title": "Withholding Tax — নিউ মার্কেট স্টাইল হাউস",
+      "messageBangla": "নিউ মার্কেট স্টাইল হাউস: পোশাক খুচরা প্রতিষ্ঠান স্থানীয় সরবরাহকারীকে পরিশোধে ৫% উৎসে কর কর্তন করবে।",
+      "whatChanged": "নতুন উৎসে কর কর্তন সংক্রান্ত নিয়ম ১৫ ডিসেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার পোশাক ব্যবসা ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (নিউ মার্কেট স্টাইল হাউস, নিউ মার্কেট, ঢাকা)।",
+      "whatToDo": "করণীয়: স্থানীয় সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করে জমা দিন।",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "status": "new",
+      "acknowledgedAt": null,
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135533",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552d",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "medium",
+      "title": "Invoice Display — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: প্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে।",
+      "whatChanged": "নতুন Invoice Display সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা)।",
+      "whatToDo": "করণীয়: প্রতিটি চালানে মূসকের পরিমাণ পৃথক লাইনে দেখান।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "seen",
+      "acknowledgedAt": null,
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135534",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552d",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "medium",
+      "title": "Invoice Display — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: প্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে।",
+      "whatChanged": "নতুন Invoice Display সংক্রান্ত নিয়ম ১৫ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: প্রতিটি চালানে মূসকের পরিমাণ পৃথক লাইনে দেখান।",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "status": "seen",
+      "acknowledgedAt": null,
+      "deliveredAt": "2026-09-03T14:20:52.568Z",
+      "_id": "6a998244dc6bcc72cf135535",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135529",
+      "businessId": "6a998244dc6bcc72cf13551c",
+      "priority": "low",
+      "title": "Server Connectivity — বনানী মিনি মার্ট",
+      "messageBangla": "বনানী মিনি মার্ট: EFD অফলাইনে রাখা যাবে না; চালান এনবিআর সার্ভারে স্বয়ংক্রিয় যাবে — এই খণ্ডের কিছু শর্ত উৎস পাঠে পুরোপুরি মিলছে না।",
+      "whatChanged": "নতুন Server Connectivity সংক্রান্ত নিয়ম ১ নভেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার খুচরা দোকান ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (বনানী মিনি মার্ট, বনানী ১১, ঢাকা)।",
+      "whatToDo": "করণীয়: EFD ডিভাইস অনলাইনে রাখুন; সংযোগ বিচ্ছিন্ন হলে দ্রুত ঠিক করান।",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:31:11.608Z",
+      "_id": "6a9984afdc6bcc72cf135555",
+      "createdAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "obligationId": "6a9984afdc6bcc72cf13555a",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "acknowledged",
+      "deliveredAt": "2026-09-03T14:31:11.712Z",
+      "_id": "6a9984afdc6bcc72cf13555e",
+      "createdAt": "2026-09-03T14:31:11.712Z",
+      "acknowledgedAt": "2026-09-03T14:32:22.859Z"
+    },
+    {
+      "obligationId": "6a9984afdc6bcc72cf13555a",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:31:11.712Z",
+      "_id": "6a9984afdc6bcc72cf13555f",
+      "createdAt": "2026-09-03T14:31:11.712Z"
+    },
+    {
+      "obligationId": "6a9984f6dc6bcc72cf13556a",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত))।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "acknowledged",
+      "deliveredAt": "2026-09-03T14:32:22.897Z",
+      "_id": "6a9984f6dc6bcc72cf13556e",
+      "createdAt": "2026-09-03T14:32:22.897Z",
+      "acknowledgedAt": "2026-09-03T14:33:55.052Z"
+    },
+    {
+      "obligationId": "6a9984f6dc6bcc72cf13556a",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:32:22.898Z",
+      "_id": "6a9984f6dc6bcc72cf13556f",
+      "createdAt": "2026-09-03T14:32:22.898Z"
+    },
+    {
+      "obligationId": "6a998553dc6bcc72cf13557e",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত))।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "acknowledged",
+      "deliveredAt": "2026-09-03T14:33:55.089Z",
+      "_id": "6a998553dc6bcc72cf135582",
+      "createdAt": "2026-09-03T14:33:55.089Z",
+      "acknowledgedAt": "2026-09-03T14:34:21.243Z"
+    },
+    {
+      "obligationId": "6a998553dc6bcc72cf13557e",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:33:55.089Z",
+      "_id": "6a998553dc6bcc72cf135583",
+      "createdAt": "2026-09-03T14:33:55.089Z"
+    },
+    {
+      "obligationId": "6a99856ddc6bcc72cf135593",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত))।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "acknowledged",
+      "deliveredAt": "2026-09-03T14:34:21.290Z",
+      "_id": "6a99856ddc6bcc72cf135597",
+      "createdAt": "2026-09-03T14:34:21.290Z",
+      "acknowledgedAt": "2026-09-03T14:35:22.513Z"
+    },
+    {
+      "obligationId": "6a99856ddc6bcc72cf135593",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:34:21.290Z",
+      "_id": "6a99856ddc6bcc72cf135598",
+      "createdAt": "2026-09-03T14:34:21.290Z"
+    },
+    {
+      "obligationId": "6a9985aadc6bcc72cf1355a8",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত))।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "acknowledged",
+      "deliveredAt": "2026-09-03T14:35:22.534Z",
+      "_id": "6a9985aadc6bcc72cf1355ac",
+      "createdAt": "2026-09-03T14:35:22.534Z",
+      "acknowledgedAt": "2026-09-03T14:36:39.266Z"
+    },
+    {
+      "obligationId": "6a9985aadc6bcc72cf1355a8",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:35:22.534Z",
+      "_id": "6a9985aadc6bcc72cf1355ad",
+      "createdAt": "2026-09-03T14:35:22.534Z"
+    },
+    {
+      "obligationId": "6a9985f7dc6bcc72cf1355b8",
+      "businessId": "6a998244dc6bcc72cf13551a",
+      "priority": "high",
+      "title": "VAT Rate Change — ধানমন্ডি স্পাইস কিচেন",
+      "messageBangla": "ধানমন্ডি স্পাইস কিচেন: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (ধানমন্ডি স্পাইস কিচেন, ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত))।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:36:39.304Z",
+      "_id": "6a9985f7dc6bcc72cf1355bc",
+      "createdAt": "2026-09-03T14:36:39.304Z"
+    },
+    {
+      "obligationId": "6a9985f7dc6bcc72cf1355b8",
+      "businessId": "6a998244dc6bcc72cf13551b",
+      "priority": "high",
+      "title": "VAT Rate Change — গুলশান গার্ডেন বিস্ট্রো",
+      "messageBangla": "গুলশান গার্ডেন বিস্ট্রো: ১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "whatChanged": "নতুন মূসক হার পরিবর্তন সংক্রান্ত নিয়ম ১ সেপ্টেম্বর ২০২৬ থেকে কার্যকর হবে।",
+      "whyItMatters": "আপনার রেস্তোরাঁ ব্যবসার জন্য এই পরিবর্তনটি প্রযোজ্য বলে মনে হচ্ছে (গুলশান গার্ডেন বিস্ট্রো, গুলশান-২, ঢাকা)।",
+      "whatToDo": "করণীয়: ১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "new",
+      "deliveredAt": "2026-09-03T14:36:39.304Z",
+      "_id": "6a9985f7dc6bcc72cf1355bd",
+      "createdAt": "2026-09-03T14:36:39.304Z"
+    }
+  ],
+  "AuditLog": [
+    {
+      "sequence": 0,
+      "action": "CIRCULAR_INGESTED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "GENESIS",
+      "currentHash": "1df88878c555ceb0109c7a904b5e62db65adbb907ffb3240cc99d21427e68cd9",
+      "metadata": {
+        "title": "এসআরও নং ২১১-আইন/২০২৬/৩১ — রেস্তোরাঁ ও খাদ্য সেবায় মূসক হার পুনর্নির্ধারণ",
+        "awaitingPipeline": true
+      },
+      "timestamp": "2026-09-03T14:20:52.570Z",
+      "_id": "6a998244dc6bcc72cf135545",
+      "createdAt": "2026-09-03T14:20:52.571Z"
+    },
+    {
+      "sequence": 1,
+      "action": "CIRCULAR_INGESTED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135524",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "1df88878c555ceb0109c7a904b5e62db65adbb907ffb3240cc99d21427e68cd9",
+      "currentHash": "5c5de5c25b96cc6dea6787d687606fe2054cf502b04b51b24ecce1a8a1572e49",
+      "metadata": {
+        "title": "পরিপত্র নং ০৯/মূসক/২০২৬ — ক্ষুদ্র উৎপাদনকারীর হিসাব সংরক্ষণ ও ডিজিটাল নথি",
+        "awaitingPipeline": true
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf135546",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 2,
+      "action": "SEED_COMPLETED",
+      "entityType": "System",
+      "entityId": "seed",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "5c5de5c25b96cc6dea6787d687606fe2054cf502b04b51b24ecce1a8a1572e49",
+      "currentHash": "108c14f22ac8b8d383200f5f2af246ac4e9f746e0677162c9939ed0cb56d20a4",
+      "metadata": {
+        "businesses": 6,
+        "circulars": 5,
+        "obligations": 9
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf135547",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 3,
+      "action": "CIRCULAR_INGESTED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135520",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "108c14f22ac8b8d383200f5f2af246ac4e9f746e0677162c9939ed0cb56d20a4",
+      "currentHash": "1c9aa8ada06695daffbbbb06f6595d3405c87e58b56870a13efb439a5d318ac2",
+      "metadata": {
+        "title": "এসআরও নং ১৫৮-আইন/২০২৬/২৭ — রেস্তোরাঁ ও খাদ্য সেবায় মূসক হার পুনর্নির্ধারণ"
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf135548",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 4,
+      "action": "OBLIGATION_VERIFIED",
+      "entityType": "Obligation",
+      "entityId": "6a998244dc6bcc72cf135525",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "1c9aa8ada06695daffbbbb06f6595d3405c87e58b56870a13efb439a5d318ac2",
+      "currentHash": "f1fc7eaaf2e444ad65faa4c2cc028ec93d7685bf705fc3b5f4430c8a6b8c1baf",
+      "metadata": {
+        "confidence": 94
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf135549",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 5,
+      "action": "OBLIGATION_REJECTED",
+      "entityType": "Obligation",
+      "entityId": "6a998244dc6bcc72cf13552c",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "f1fc7eaaf2e444ad65faa4c2cc028ec93d7685bf705fc3b5f4430c8a6b8c1baf",
+      "currentHash": "fc7c931fae58a2ffe4946e8602a6d21f9d97128474a7a0fb71586788857e4524",
+      "metadata": {
+        "reason": "insufficient grounding"
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf13554a",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 6,
+      "action": "ALERTS_DISPATCHED",
+      "entityType": "Alert",
+      "entityId": "batch",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "fc7c931fae58a2ffe4946e8602a6d21f9d97128474a7a0fb71586788857e4524",
+      "currentHash": "cb6aae43fd89e4457a40e3425b4fab1aff83a021dfe25e6b918e7378beed32d3",
+      "metadata": {
+        "count": 8
+      },
+      "timestamp": "2026-09-03T14:20:52.572Z",
+      "_id": "6a998244dc6bcc72cf13554b",
+      "createdAt": "2026-09-03T14:20:52.572Z"
+    },
+    {
+      "sequence": 7,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a998244dc6bcc72cf13554c",
+      "actorId": null,
+      "previousHash": "cb6aae43fd89e4457a40e3425b4fab1aff83a021dfe25e6b918e7378beed32d3",
+      "currentHash": "5263e14c49c6d887584610534a818de3f939aa7dfaeec7155dc6c44e1c166ad0",
+      "metadata": {
+        "entryCount": 7,
+        "entryCountTotal": 7,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0x5c66c40c24cce2e76c9110cd11b595d86fa6a65625974b481d010b04569517af"
+      },
+      "timestamp": "2026-09-03T14:20:52.573Z",
+      "_id": "6a998244dc6bcc72cf13554d",
+      "createdAt": "2026-09-03T14:20:52.573Z"
+    },
+    {
+      "sequence": 8,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "5263e14c49c6d887584610534a818de3f939aa7dfaeec7155dc6c44e1c166ad0",
+      "currentHash": "9a2131a4c73610186902858b379f4b1eb0331ccc9f31e517970539b3cb8e3648",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:21:08.068Z",
+      "_id": "6a998254dc6bcc72cf13554e",
+      "createdAt": "2026-09-03T14:21:08.068Z"
+    },
+    {
+      "sequence": 9,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "9a2131a4c73610186902858b379f4b1eb0331ccc9f31e517970539b3cb8e3648",
+      "currentHash": "cd72b27b71f1627526147cdc332d8aeeac9158e2c7653af2832412e97dd4f8b0",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:21:22.831Z",
+      "_id": "6a998262dc6bcc72cf13554f",
+      "createdAt": "2026-09-03T14:21:22.831Z"
+    },
+    {
+      "sequence": 10,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "cd72b27b71f1627526147cdc332d8aeeac9158e2c7653af2832412e97dd4f8b0",
+      "currentHash": "b20f190994763ea4c50304bd21d4d7f090aebad53afd319e38af6472317232c8",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:31:11.228Z",
+      "_id": "6a9984afdc6bcc72cf135550",
+      "createdAt": "2026-09-03T14:31:11.229Z"
+    },
+    {
+      "sequence": 11,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "b20f190994763ea4c50304bd21d4d7f090aebad53afd319e38af6472317232c8",
+      "currentHash": "83e88b4dc6f20109c94493d8650f490ceb7e5f7c7b39d33ce4e5febfd9dadd9d",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:31:11.350Z",
+      "_id": "6a9984afdc6bcc72cf135551",
+      "createdAt": "2026-09-03T14:31:11.350Z"
+    },
+    {
+      "sequence": 12,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "83e88b4dc6f20109c94493d8650f490ceb7e5f7c7b39d33ce4e5febfd9dadd9d",
+      "currentHash": "e5eeac0d9a82b258b1360f5a711c83e34c62ffd3437536310c2df07999ee0db7",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:31:11.494Z",
+      "_id": "6a9984afdc6bcc72cf135552",
+      "createdAt": "2026-09-03T14:31:11.494Z"
+    },
+    {
+      "sequence": 13,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a998244dc6bcc72cf13552e",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "e5eeac0d9a82b258b1360f5a711c83e34c62ffd3437536310c2df07999ee0db7",
+      "currentHash": "4d2d826c96a884a0025bb319ea9123d394d3959526f9a48fe4568a52bf406004",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:31:11.590Z",
+      "_id": "6a9984afdc6bcc72cf135553",
+      "createdAt": "2026-09-03T14:31:11.591Z"
+    },
+    {
+      "sequence": 14,
+      "action": "REVIEW_PERFORMED",
+      "entityType": "Obligation",
+      "entityId": "6a998244dc6bcc72cf135529",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "4d2d826c96a884a0025bb319ea9123d394d3959526f9a48fe4568a52bf406004",
+      "currentHash": "2ac6536844092db85951e38acaa0d0672bc48d6b05fcd6f6b8547fef8b88f429",
+      "metadata": {
+        "decision": "approved",
+        "reviewer": "নাবিলা চৌধুরী",
+        "override": false,
+        "overriddenFields": []
+      },
+      "timestamp": "2026-09-03T14:31:11.607Z",
+      "_id": "6a9984afdc6bcc72cf135554",
+      "createdAt": "2026-09-03T14:31:11.607Z"
+    },
+    {
+      "sequence": 15,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9984afdc6bcc72cf135555",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "2ac6536844092db85951e38acaa0d0672bc48d6b05fcd6f6b8547fef8b88f429",
+      "currentHash": "07737541d51d9a1478af2ddd13db2930890e3e5efdab2301878544c8b591f12a",
+      "metadata": {
+        "obligationId": "6a998244dc6bcc72cf135529",
+        "businessId": "6a998244dc6bcc72cf13551c",
+        "priority": "low",
+        "effectiveDate": "2026-11-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:31:11.608Z",
+      "_id": "6a9984afdc6bcc72cf135556",
+      "createdAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "sequence": 16,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a998244dc6bcc72cf135529",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "07737541d51d9a1478af2ddd13db2930890e3e5efdab2301878544c8b591f12a",
+      "currentHash": "02a41b1f5932007cf6cf16d741dc3529e87284ad33508dad35f06efca54a6bc3",
+      "metadata": {
+        "count": 1,
+        "businessIds": [
+          "6a998244dc6bcc72cf13551c"
+        ]
+      },
+      "timestamp": "2026-09-03T14:31:11.608Z",
+      "_id": "6a9984afdc6bcc72cf135557",
+      "createdAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "sequence": 17,
+      "action": "OBLIGATION_VERIFIED",
+      "entityType": "Obligation",
+      "entityId": "6a998244dc6bcc72cf135529",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "02a41b1f5932007cf6cf16d741dc3529e87284ad33508dad35f06efca54a6bc3",
+      "currentHash": "ca0a2482a7f19de29e627e94eb1d0420633a1927f748a41af968ac8f84240c83",
+      "metadata": {
+        "confidence": 38,
+        "alertsCreated": 1,
+        "overriddenFields": []
+      },
+      "timestamp": "2026-09-03T14:31:11.608Z",
+      "_id": "6a9984afdc6bcc72cf135558",
+      "createdAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "sequence": 18,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a9984afdc6bcc72cf13555a",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "ca0a2482a7f19de29e627e94eb1d0420633a1927f748a41af968ac8f84240c83",
+      "currentHash": "7c3f5815e383b89e348d644b023e9abf848887e977c35c8cc53096e1f9eb9640",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:31:11.711Z",
+      "_id": "6a9984afdc6bcc72cf13555b",
+      "createdAt": "2026-09-03T14:31:11.711Z"
+    },
+    {
+      "sequence": 19,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "7c3f5815e383b89e348d644b023e9abf848887e977c35c8cc53096e1f9eb9640",
+      "currentHash": "85ed8997bd0e2cdfa591d4ffd3fa9f06d399ce570682cca3725e62f564bcf09a",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:31:11.711Z",
+      "_id": "6a9984afdc6bcc72cf13555d",
+      "createdAt": "2026-09-03T14:31:11.712Z"
+    },
+    {
+      "sequence": 20,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9984afdc6bcc72cf13555e",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "85ed8997bd0e2cdfa591d4ffd3fa9f06d399ce570682cca3725e62f564bcf09a",
+      "currentHash": "66bfdeed8062b8858f2b0454e6d07ad3cc64b1df23bc316a4065fa01ce2da96c",
+      "metadata": {
+        "obligationId": "6a9984afdc6bcc72cf13555a",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:31:11.712Z",
+      "_id": "6a9984afdc6bcc72cf135560",
+      "createdAt": "2026-09-03T14:31:11.712Z"
+    },
+    {
+      "sequence": 21,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9984afdc6bcc72cf13555f",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "66bfdeed8062b8858f2b0454e6d07ad3cc64b1df23bc316a4065fa01ce2da96c",
+      "currentHash": "71e13cea7d2a84228dffdb9b9031f0f433ac46cc910675ceb18663a08eb1802d",
+      "metadata": {
+        "obligationId": "6a9984afdc6bcc72cf13555a",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:31:11.712Z",
+      "_id": "6a9984afdc6bcc72cf135561",
+      "createdAt": "2026-09-03T14:31:11.713Z"
+    },
+    {
+      "sequence": 22,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a9984afdc6bcc72cf13555a",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "71e13cea7d2a84228dffdb9b9031f0f433ac46cc910675ceb18663a08eb1802d",
+      "currentHash": "d656a63a561938032196e0717e8d32d1b4f3b0f6b0f3ac2d65a6cfc83f7f61db",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:31:11.713Z",
+      "_id": "6a9984afdc6bcc72cf135562",
+      "createdAt": "2026-09-03T14:31:11.713Z"
+    },
+    {
+      "sequence": 23,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a9984afdc6bcc72cf135563",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "d656a63a561938032196e0717e8d32d1b4f3b0f6b0f3ac2d65a6cfc83f7f61db",
+      "currentHash": "aaed5d8f9b0f43c4cc88d82125a5100d506040cb306be0f1e3e21b186b9f6676",
+      "metadata": {
+        "entryCount": 16,
+        "entryCountTotal": 23,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0x49c8a194e15c16cb3009c741fb2a28934f4767b2abb39e363ae0a2e6f390fa44"
+      },
+      "timestamp": "2026-09-03T14:31:11.795Z",
+      "_id": "6a9984afdc6bcc72cf135564",
+      "createdAt": "2026-09-03T14:31:11.796Z"
+    },
+    {
+      "sequence": 24,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "aaed5d8f9b0f43c4cc88d82125a5100d506040cb306be0f1e3e21b186b9f6676",
+      "currentHash": "754d7a1af6808c24de21924797218507dd346b39ce14deb4a033e9866262582e",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:32:22.491Z",
+      "_id": "6a9984f6dc6bcc72cf135565",
+      "createdAt": "2026-09-03T14:32:22.491Z"
+    },
+    {
+      "sequence": 25,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "754d7a1af6808c24de21924797218507dd346b39ce14deb4a033e9866262582e",
+      "currentHash": "eb4d2ef0c4409883cbf6d80e49ad6ff2ba6c4545f7515de9821c9886963e3557",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:32:22.640Z",
+      "_id": "6a9984f6dc6bcc72cf135566",
+      "createdAt": "2026-09-03T14:32:22.640Z"
+    },
+    {
+      "sequence": 26,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "eb4d2ef0c4409883cbf6d80e49ad6ff2ba6c4545f7515de9821c9886963e3557",
+      "currentHash": "e0e21b591cd14fdc2d58d6fe6c1ba345210be74dc0760ef53b36e7bc593c1a0a",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:32:22.780Z",
+      "_id": "6a9984f6dc6bcc72cf135567",
+      "createdAt": "2026-09-03T14:32:22.780Z"
+    },
+    {
+      "sequence": 27,
+      "action": "BUSINESS_UPDATED",
+      "entityType": "Business",
+      "entityId": "6a998244dc6bcc72cf13551a",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "e0e21b591cd14fdc2d58d6fe6c1ba345210be74dc0760ef53b36e7bc593c1a0a",
+      "currentHash": "e472fa6ec3a61f673563009bd602ba64f03d74a7d9a189e77cb3473e39e19676",
+      "metadata": {
+        "changes": {
+          "location": {
+            "from": "ধানমন্ডি ২৭, ঢাকা",
+            "to": "ধানমন্ডি ২৭, ঢাকা (হালনাগাদকৃত)"
+          }
+        },
+        "businessName": "ধানমন্ডি স্পাইস কিচেন"
+      },
+      "timestamp": "2026-09-03T14:32:22.836Z",
+      "_id": "6a9984f6dc6bcc72cf135568",
+      "createdAt": "2026-09-03T14:32:22.836Z"
+    },
+    {
+      "sequence": 28,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a9984afdc6bcc72cf13555e",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "e472fa6ec3a61f673563009bd602ba64f03d74a7d9a189e77cb3473e39e19676",
+      "currentHash": "feb967de22335ce074ad49794a7c7a8a038b4ae92b2e30bb85ab50d5068769c3",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:32:22.859Z",
+      "_id": "6a9984f6dc6bcc72cf135569",
+      "createdAt": "2026-09-03T14:32:22.860Z"
+    },
+    {
+      "sequence": 29,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a9984f6dc6bcc72cf13556a",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "feb967de22335ce074ad49794a7c7a8a038b4ae92b2e30bb85ab50d5068769c3",
+      "currentHash": "437190445cb887d904c3c78e220937355d2fd69c0722212e726083af3aa59653",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:32:22.897Z",
+      "_id": "6a9984f6dc6bcc72cf13556b",
+      "createdAt": "2026-09-03T14:32:22.897Z"
+    },
+    {
+      "sequence": 30,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "437190445cb887d904c3c78e220937355d2fd69c0722212e726083af3aa59653",
+      "currentHash": "7f676940fc7275ad1c20e354e30c7f3a520459ed084d273f8eb61c2188c41d46",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:32:22.897Z",
+      "_id": "6a9984f6dc6bcc72cf13556d",
+      "createdAt": "2026-09-03T14:32:22.897Z"
+    },
+    {
+      "sequence": 31,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9984f6dc6bcc72cf13556e",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "7f676940fc7275ad1c20e354e30c7f3a520459ed084d273f8eb61c2188c41d46",
+      "currentHash": "db9af090922fc8e07daf518db2d1757b9660d2979abc72926b78a2bb0ef88981",
+      "metadata": {
+        "obligationId": "6a9984f6dc6bcc72cf13556a",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:32:22.898Z",
+      "_id": "6a9984f6dc6bcc72cf135570",
+      "createdAt": "2026-09-03T14:32:22.898Z"
+    },
+    {
+      "sequence": 32,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9984f6dc6bcc72cf13556f",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "db9af090922fc8e07daf518db2d1757b9660d2979abc72926b78a2bb0ef88981",
+      "currentHash": "9980938ee28add18f592d450bba15fadb9404870ff31584d6d87ece57d152db2",
+      "metadata": {
+        "obligationId": "6a9984f6dc6bcc72cf13556a",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:32:22.898Z",
+      "_id": "6a9984f6dc6bcc72cf135571",
+      "createdAt": "2026-09-03T14:32:22.899Z"
+    },
+    {
+      "sequence": 33,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a9984f6dc6bcc72cf13556a",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "9980938ee28add18f592d450bba15fadb9404870ff31584d6d87ece57d152db2",
+      "currentHash": "f8409f69d36ce1575460d38ab87fca1ebe7add828ca2cab1e9446b7e78bbdb75",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:32:22.899Z",
+      "_id": "6a9984f6dc6bcc72cf135572",
+      "createdAt": "2026-09-03T14:32:22.899Z"
+    },
+    {
+      "sequence": 34,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a9984f6dc6bcc72cf135573",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "f8409f69d36ce1575460d38ab87fca1ebe7add828ca2cab1e9446b7e78bbdb75",
+      "currentHash": "3a993e5232036146f3d50583c35e8af1b0ce6bf5ea2a0c8a0424c98acb32c48a",
+      "metadata": {
+        "obligationType": "Withholding Tax",
+        "businessCategory": "Small Manufacturer",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:32:22.916Z",
+      "_id": "6a9984f6dc6bcc72cf135574",
+      "createdAt": "2026-09-03T14:32:22.916Z"
+    },
+    {
+      "sequence": 35,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135522",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "3a993e5232036146f3d50583c35e8af1b0ce6bf5ea2a0c8a0424c98acb32c48a",
+      "currentHash": "95b89d104a9e86262d7320f5f426d21c589ba914968d504fc19bd5d7610a89ef",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:32:22.916Z",
+      "_id": "6a9984f6dc6bcc72cf135576",
+      "createdAt": "2026-09-03T14:32:22.916Z"
+    },
+    {
+      "sequence": 36,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a9984f6dc6bcc72cf135573",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "95b89d104a9e86262d7320f5f426d21c589ba914968d504fc19bd5d7610a89ef",
+      "currentHash": "33b3ffd9630c2145f983002c5c35ba8cc478d3464a170940420c8b677731857b",
+      "metadata": {
+        "count": 0,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:32:22.916Z",
+      "_id": "6a9984f6dc6bcc72cf135577",
+      "createdAt": "2026-09-03T14:32:22.917Z"
+    },
+    {
+      "sequence": 37,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a9984f7dc6bcc72cf135578",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "33b3ffd9630c2145f983002c5c35ba8cc478d3464a170940420c8b677731857b",
+      "currentHash": "e3dba24a6e64319d6f1da1e40dbc9c962e8ca04c1978d6c4b5bb902450330dda",
+      "metadata": {
+        "entryCount": 14,
+        "entryCountTotal": 37,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0x9e94c22e24a0603c02fae76eedf99c315e135d157cbb73446640f18fab4662d1"
+      },
+      "timestamp": "2026-09-03T14:32:23.010Z",
+      "_id": "6a9984f7dc6bcc72cf135579",
+      "createdAt": "2026-09-03T14:32:23.010Z"
+    },
+    {
+      "sequence": 38,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "e3dba24a6e64319d6f1da1e40dbc9c962e8ca04c1978d6c4b5bb902450330dda",
+      "currentHash": "9a540e6d7cbcd72457c635ec843a574fcbee299fe0dc8ae6862fb2aeff925030",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:33:54.739Z",
+      "_id": "6a998552dc6bcc72cf13557a",
+      "createdAt": "2026-09-03T14:33:54.739Z"
+    },
+    {
+      "sequence": 39,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "9a540e6d7cbcd72457c635ec843a574fcbee299fe0dc8ae6862fb2aeff925030",
+      "currentHash": "ff037fec73a7800d0c88f2b2bf2fab4d62a4fb17f35199a2a59b36f75857f3d9",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:33:54.864Z",
+      "_id": "6a998552dc6bcc72cf13557b",
+      "createdAt": "2026-09-03T14:33:54.865Z"
+    },
+    {
+      "sequence": 40,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "ff037fec73a7800d0c88f2b2bf2fab4d62a4fb17f35199a2a59b36f75857f3d9",
+      "currentHash": "718eecc38e4681c8e5d19df54f2f805d86323f0ee40bcb4fa12e2f59763d3a97",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:33:54.986Z",
+      "_id": "6a998552dc6bcc72cf13557c",
+      "createdAt": "2026-09-03T14:33:54.986Z"
+    },
+    {
+      "sequence": 41,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a9984f6dc6bcc72cf13556e",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "718eecc38e4681c8e5d19df54f2f805d86323f0ee40bcb4fa12e2f59763d3a97",
+      "currentHash": "dbf09eff679668d5c5928073c37478bbfdb60be0f1689474cc7b2e2477d1210a",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:33:55.052Z",
+      "_id": "6a998553dc6bcc72cf13557d",
+      "createdAt": "2026-09-03T14:33:55.053Z"
+    },
+    {
+      "sequence": 42,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a998553dc6bcc72cf13557e",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "dbf09eff679668d5c5928073c37478bbfdb60be0f1689474cc7b2e2477d1210a",
+      "currentHash": "e912ec8cd802942e8cb7ac67f6fb39c789ec840c9c3c08c76dad9e1fbccb97d6",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:33:55.088Z",
+      "_id": "6a998553dc6bcc72cf13557f",
+      "createdAt": "2026-09-03T14:33:55.089Z"
+    },
+    {
+      "sequence": 43,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "e912ec8cd802942e8cb7ac67f6fb39c789ec840c9c3c08c76dad9e1fbccb97d6",
+      "currentHash": "998f316d48fe9fdfca6aa26a90441b36c2da03242de4fd461f710f664e86fece",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:33:55.089Z",
+      "_id": "6a998553dc6bcc72cf135581",
+      "createdAt": "2026-09-03T14:33:55.089Z"
+    },
+    {
+      "sequence": 44,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a998553dc6bcc72cf135582",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "998f316d48fe9fdfca6aa26a90441b36c2da03242de4fd461f710f664e86fece",
+      "currentHash": "c3792c1bf71c075c4e0c61cebf19446493e7d3aedeb17497f9ef3c52b04c7483",
+      "metadata": {
+        "obligationId": "6a998553dc6bcc72cf13557e",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:33:55.089Z",
+      "_id": "6a998553dc6bcc72cf135584",
+      "createdAt": "2026-09-03T14:33:55.090Z"
+    },
+    {
+      "sequence": 45,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a998553dc6bcc72cf135583",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "c3792c1bf71c075c4e0c61cebf19446493e7d3aedeb17497f9ef3c52b04c7483",
+      "currentHash": "468b206fa4ae4c94f98a61a3488043522ac0ffda3c99b7a41e6ffbd5674f0611",
+      "metadata": {
+        "obligationId": "6a998553dc6bcc72cf13557e",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:33:55.090Z",
+      "_id": "6a998553dc6bcc72cf135585",
+      "createdAt": "2026-09-03T14:33:55.090Z"
+    },
+    {
+      "sequence": 46,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a998553dc6bcc72cf13557e",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "468b206fa4ae4c94f98a61a3488043522ac0ffda3c99b7a41e6ffbd5674f0611",
+      "currentHash": "1fb24df217f15906b05b69eb7999b4ede423fb99884b8c21bfcf7aa53b73511e",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:33:55.090Z",
+      "_id": "6a998553dc6bcc72cf135586",
+      "createdAt": "2026-09-03T14:33:55.090Z"
+    },
+    {
+      "sequence": 47,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a998553dc6bcc72cf135587",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "1fb24df217f15906b05b69eb7999b4ede423fb99884b8c21bfcf7aa53b73511e",
+      "currentHash": "48e8cdb397b0e98e2add65d71209e4946067b895d76f799c2ca3db2524b75bce",
+      "metadata": {
+        "obligationType": "Withholding Tax",
+        "businessCategory": "Small Manufacturer",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:33:55.111Z",
+      "_id": "6a998553dc6bcc72cf135588",
+      "createdAt": "2026-09-03T14:33:55.112Z"
+    },
+    {
+      "sequence": 48,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135522",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "48e8cdb397b0e98e2add65d71209e4946067b895d76f799c2ca3db2524b75bce",
+      "currentHash": "e671a161b20e02ed2070e77fe3e5e78cbf9350933eae155e46dfaa2f2030345f",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:33:55.112Z",
+      "_id": "6a998553dc6bcc72cf13558a",
+      "createdAt": "2026-09-03T14:33:55.112Z"
+    },
+    {
+      "sequence": 49,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a998553dc6bcc72cf135587",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "e671a161b20e02ed2070e77fe3e5e78cbf9350933eae155e46dfaa2f2030345f",
+      "currentHash": "fbafe4ab4eafa204d47b881aa9b61eb91d3f0933daf394cf1c62d85bbdb1abd2",
+      "metadata": {
+        "count": 0,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:33:55.113Z",
+      "_id": "6a998553dc6bcc72cf13558b",
+      "createdAt": "2026-09-03T14:33:55.113Z"
+    },
+    {
+      "sequence": 50,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a998553dc6bcc72cf13558c",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "fbafe4ab4eafa204d47b881aa9b61eb91d3f0933daf394cf1c62d85bbdb1abd2",
+      "currentHash": "9c08384e1d5cbb77b785bed72b7c2d7cdc4e5f33a89a8bd4ec9cb1a60b67aba9",
+      "metadata": {
+        "entryCount": 13,
+        "entryCountTotal": 50,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0x96fc20bb822e68616ffa6c5d08fd771f65bf2ab89cc61d95a955e3d3e38ee233"
+      },
+      "timestamp": "2026-09-03T14:33:55.190Z",
+      "_id": "6a998553dc6bcc72cf13558d",
+      "createdAt": "2026-09-03T14:33:55.190Z"
+    },
+    {
+      "sequence": 51,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "9c08384e1d5cbb77b785bed72b7c2d7cdc4e5f33a89a8bd4ec9cb1a60b67aba9",
+      "currentHash": "d7aa5cca7e6b2e0be3dbfea4c8437a8b32b21a75532f1537a77a672dca8aabc1",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:34:20.762Z",
+      "_id": "6a99856cdc6bcc72cf13558e",
+      "createdAt": "2026-09-03T14:34:20.762Z"
+    },
+    {
+      "sequence": 52,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "d7aa5cca7e6b2e0be3dbfea4c8437a8b32b21a75532f1537a77a672dca8aabc1",
+      "currentHash": "23f03741518f209cd69f23440f4634d5cc1702e18c5e18e0674041c5b377027e",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:34:20.892Z",
+      "_id": "6a99856cdc6bcc72cf13558f",
+      "createdAt": "2026-09-03T14:34:20.892Z"
+    },
+    {
+      "sequence": 53,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "23f03741518f209cd69f23440f4634d5cc1702e18c5e18e0674041c5b377027e",
+      "currentHash": "55ab9aba7b8efbd7ff137cea38107ea1600cf0bd744193c27e0bd31c1334b887",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:34:21.028Z",
+      "_id": "6a99856ddc6bcc72cf135590",
+      "createdAt": "2026-09-03T14:34:21.029Z"
+    },
+    {
+      "sequence": 54,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "55ab9aba7b8efbd7ff137cea38107ea1600cf0bd744193c27e0bd31c1334b887",
+      "currentHash": "34af0ba7e9cca04e8593b4843ceb77258d4a6abd299c950e688de8892211411a",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:34:21.155Z",
+      "_id": "6a99856ddc6bcc72cf135591",
+      "createdAt": "2026-09-03T14:34:21.156Z"
+    },
+    {
+      "sequence": 55,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a998553dc6bcc72cf135582",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "34af0ba7e9cca04e8593b4843ceb77258d4a6abd299c950e688de8892211411a",
+      "currentHash": "5691c8ea2d9372fa2752c6dcd4a6c38d0aef0f6b5e451cbb8171e76ec0b911cf",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:34:21.243Z",
+      "_id": "6a99856ddc6bcc72cf135592",
+      "createdAt": "2026-09-03T14:34:21.244Z"
+    },
+    {
+      "sequence": 56,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a99856ddc6bcc72cf135593",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "5691c8ea2d9372fa2752c6dcd4a6c38d0aef0f6b5e451cbb8171e76ec0b911cf",
+      "currentHash": "0d03276feb704855565a87a7a76d00b5e98f3894fb15df5aac8e7a1532152bcc",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:34:21.289Z",
+      "_id": "6a99856ddc6bcc72cf135594",
+      "createdAt": "2026-09-03T14:34:21.289Z"
+    },
+    {
+      "sequence": 57,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "0d03276feb704855565a87a7a76d00b5e98f3894fb15df5aac8e7a1532152bcc",
+      "currentHash": "f2092064c93a773ab7a8a8d00e0e69a57ee84b18a4f6a479192adbe15972123f",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:34:21.290Z",
+      "_id": "6a99856ddc6bcc72cf135596",
+      "createdAt": "2026-09-03T14:34:21.290Z"
+    },
+    {
+      "sequence": 58,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a99856ddc6bcc72cf135597",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "f2092064c93a773ab7a8a8d00e0e69a57ee84b18a4f6a479192adbe15972123f",
+      "currentHash": "55bfc8fbe97ec76d6a26cd7ee6dd05133b97d4a198db204f37c243a97a8cbb0d",
+      "metadata": {
+        "obligationId": "6a99856ddc6bcc72cf135593",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:34:21.290Z",
+      "_id": "6a99856ddc6bcc72cf135599",
+      "createdAt": "2026-09-03T14:34:21.290Z"
+    },
+    {
+      "sequence": 59,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a99856ddc6bcc72cf135598",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "55bfc8fbe97ec76d6a26cd7ee6dd05133b97d4a198db204f37c243a97a8cbb0d",
+      "currentHash": "a499f4edcc6198b37f509113802843ffdc84b0943d01651a504fc6b1217596d5",
+      "metadata": {
+        "obligationId": "6a99856ddc6bcc72cf135593",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:34:21.290Z",
+      "_id": "6a99856ddc6bcc72cf13559a",
+      "createdAt": "2026-09-03T14:34:21.291Z"
+    },
+    {
+      "sequence": 60,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a99856ddc6bcc72cf135593",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "a499f4edcc6198b37f509113802843ffdc84b0943d01651a504fc6b1217596d5",
+      "currentHash": "9a7588bbeafbae449a19af3079b4f208ed36345e21d02c87ac2bc9b24932bbf0",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:34:21.291Z",
+      "_id": "6a99856ddc6bcc72cf13559b",
+      "createdAt": "2026-09-03T14:34:21.291Z"
+    },
+    {
+      "sequence": 61,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a99856ddc6bcc72cf13559c",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "9a7588bbeafbae449a19af3079b4f208ed36345e21d02c87ac2bc9b24932bbf0",
+      "currentHash": "dcd614f17413e6a598e7c8f7fb83779da0c790bb280d19ad514b9fda0717c1b9",
+      "metadata": {
+        "obligationType": "Withholding Tax",
+        "businessCategory": "Small Manufacturer",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:34:21.316Z",
+      "_id": "6a99856ddc6bcc72cf13559d",
+      "createdAt": "2026-09-03T14:34:21.316Z"
+    },
+    {
+      "sequence": 62,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135522",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "dcd614f17413e6a598e7c8f7fb83779da0c790bb280d19ad514b9fda0717c1b9",
+      "currentHash": "6481be0d247e815deba8c89bba9485b5c8e6debcc9e64cfeb8cccee51cb350d8",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:34:21.316Z",
+      "_id": "6a99856ddc6bcc72cf13559f",
+      "createdAt": "2026-09-03T14:34:21.316Z"
+    },
+    {
+      "sequence": 63,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a99856ddc6bcc72cf13559c",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "6481be0d247e815deba8c89bba9485b5c8e6debcc9e64cfeb8cccee51cb350d8",
+      "currentHash": "93fa6e0fc9d0b5b64f58222c1b5a5c22c4cf96052b7044b1a626deecabf2754b",
+      "metadata": {
+        "count": 0,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:34:21.317Z",
+      "_id": "6a99856ddc6bcc72cf1355a0",
+      "createdAt": "2026-09-03T14:34:21.317Z"
+    },
+    {
+      "sequence": 64,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a99856ddc6bcc72cf1355a1",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "93fa6e0fc9d0b5b64f58222c1b5a5c22c4cf96052b7044b1a626deecabf2754b",
+      "currentHash": "215dc92ad4ad1d39103ae1205582a806cbf863224be4c16b709265b1b02f5a83",
+      "metadata": {
+        "entryCount": 14,
+        "entryCountTotal": 64,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0x6933967b487001849828af9f07e1ad53174f77776d5fbdbc3f3638b7420b4d20"
+      },
+      "timestamp": "2026-09-03T14:34:21.385Z",
+      "_id": "6a99856ddc6bcc72cf1355a2",
+      "createdAt": "2026-09-03T14:34:21.385Z"
+    },
+    {
+      "sequence": 65,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "215dc92ad4ad1d39103ae1205582a806cbf863224be4c16b709265b1b02f5a83",
+      "currentHash": "51d20cbdea1939a2ca7e505d07575ad8b4230a9ae64cd03dc5fcaaa053f8bc74",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:34:54.496Z",
+      "_id": "6a99858edc6bcc72cf1355a3",
+      "createdAt": "2026-09-03T14:34:54.496Z"
+    },
+    {
+      "sequence": 66,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "51d20cbdea1939a2ca7e505d07575ad8b4230a9ae64cd03dc5fcaaa053f8bc74",
+      "currentHash": "6d86bfecbad55bfa34ae525799ea8c06fcccd812e8e04b117b9db90493d3db6f",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:35:22.172Z",
+      "_id": "6a9985aadc6bcc72cf1355a4",
+      "createdAt": "2026-09-03T14:35:22.173Z"
+    },
+    {
+      "sequence": 67,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "6d86bfecbad55bfa34ae525799ea8c06fcccd812e8e04b117b9db90493d3db6f",
+      "currentHash": "ef1ef88b411e6a90680b3c92a6145555f23b0e848bab2b015c13cdc34d8dccee",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:35:22.305Z",
+      "_id": "6a9985aadc6bcc72cf1355a5",
+      "createdAt": "2026-09-03T14:35:22.305Z"
+    },
+    {
+      "sequence": 68,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "ef1ef88b411e6a90680b3c92a6145555f23b0e848bab2b015c13cdc34d8dccee",
+      "currentHash": "4227798138388c70e6dcb781b8ddd832e66234ae63837748db33ca650c589c45",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:35:22.450Z",
+      "_id": "6a9985aadc6bcc72cf1355a6",
+      "createdAt": "2026-09-03T14:35:22.450Z"
+    },
+    {
+      "sequence": 69,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a99856ddc6bcc72cf135597",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "4227798138388c70e6dcb781b8ddd832e66234ae63837748db33ca650c589c45",
+      "currentHash": "5d686387e01c59c63d6bf192552b6cbf9cfbd2434e10601cf2ac6f7f98cc362a",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:35:22.513Z",
+      "_id": "6a9985aadc6bcc72cf1355a7",
+      "createdAt": "2026-09-03T14:35:22.513Z"
+    },
+    {
+      "sequence": 70,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a9985aadc6bcc72cf1355a8",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "5d686387e01c59c63d6bf192552b6cbf9cfbd2434e10601cf2ac6f7f98cc362a",
+      "currentHash": "ca48b80576a82bfad9a0370d889ba40a5d4b55efc2164bf259241d621117bd98",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:35:22.533Z",
+      "_id": "6a9985aadc6bcc72cf1355a9",
+      "createdAt": "2026-09-03T14:35:22.533Z"
+    },
+    {
+      "sequence": 71,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "ca48b80576a82bfad9a0370d889ba40a5d4b55efc2164bf259241d621117bd98",
+      "currentHash": "6ceb87ecfe0a7e5c1039f7744bc9aa238316e2792998acdeba1d5464a737dfeb",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:35:22.533Z",
+      "_id": "6a9985aadc6bcc72cf1355ab",
+      "createdAt": "2026-09-03T14:35:22.534Z"
+    },
+    {
+      "sequence": 72,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9985aadc6bcc72cf1355ac",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "6ceb87ecfe0a7e5c1039f7744bc9aa238316e2792998acdeba1d5464a737dfeb",
+      "currentHash": "c682170e51f7d5b374a8adb067daa80085f86753f086c2bc1e4df303816cd4bd",
+      "metadata": {
+        "obligationId": "6a9985aadc6bcc72cf1355a8",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:35:22.534Z",
+      "_id": "6a9985aadc6bcc72cf1355ae",
+      "createdAt": "2026-09-03T14:35:22.534Z"
+    },
+    {
+      "sequence": 73,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9985aadc6bcc72cf1355ad",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "c682170e51f7d5b374a8adb067daa80085f86753f086c2bc1e4df303816cd4bd",
+      "currentHash": "a9722725f9cd6efc3e13c18b70a88d41d265d551f68056325cc317bcb96e7f19",
+      "metadata": {
+        "obligationId": "6a9985aadc6bcc72cf1355a8",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:35:22.534Z",
+      "_id": "6a9985aadc6bcc72cf1355af",
+      "createdAt": "2026-09-03T14:35:22.535Z"
+    },
+    {
+      "sequence": 74,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a9985aadc6bcc72cf1355a8",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "a9722725f9cd6efc3e13c18b70a88d41d265d551f68056325cc317bcb96e7f19",
+      "currentHash": "478adc87c14fc22aeb36e985b233a1ff1d0cc6608b07351b165288d5080757e3",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:35:22.535Z",
+      "_id": "6a9985aadc6bcc72cf1355b0",
+      "createdAt": "2026-09-03T14:35:22.535Z"
+    },
+    {
+      "sequence": 75,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a9985aadc6bcc72cf1355b1",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "478adc87c14fc22aeb36e985b233a1ff1d0cc6608b07351b165288d5080757e3",
+      "currentHash": "d6574e9b2bc06ea9559303d8c64acfec0d973a15f25c51bda8ad31b18c344ce5",
+      "metadata": {
+        "entryCount": 11,
+        "entryCountTotal": 75,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0xdab66b020817f050ab9046a9c97ed521ca3365cd4f90f20de846e176b667ffe3"
+      },
+      "timestamp": "2026-09-03T14:35:22.664Z",
+      "_id": "6a9985aadc6bcc72cf1355b2",
+      "createdAt": "2026-09-03T14:35:22.664Z"
+    },
+    {
+      "sequence": 76,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "d6574e9b2bc06ea9559303d8c64acfec0d973a15f25c51bda8ad31b18c344ce5",
+      "currentHash": "1be55a4e8f0f70df9a27438a19b2d4e62bd39f6bc0384e2bf95a56ca16744fe4",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:36:24.400Z",
+      "_id": "6a9985e8dc6bcc72cf1355b3",
+      "createdAt": "2026-09-03T14:36:24.400Z"
+    },
+    {
+      "sequence": 77,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135515",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "1be55a4e8f0f70df9a27438a19b2d4e62bd39f6bc0384e2bf95a56ca16744fe4",
+      "currentHash": "937d524bc6d030cc79d3e2094d3520e38597ed2843c80b583b2e6680f1c66290",
+      "metadata": {
+        "email": "accountant@complybd.com",
+        "role": "accountant"
+      },
+      "timestamp": "2026-09-03T14:36:38.927Z",
+      "_id": "6a9985f6dc6bcc72cf1355b4",
+      "createdAt": "2026-09-03T14:36:38.928Z"
+    },
+    {
+      "sequence": 78,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135517",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "937d524bc6d030cc79d3e2094d3520e38597ed2843c80b583b2e6680f1c66290",
+      "currentHash": "26a47a156094219bd6fb9c8d55d981b1d0569a287988388a17aca8fdf1310a6d",
+      "metadata": {
+        "email": "owner@complybd.com",
+        "role": "owner"
+      },
+      "timestamp": "2026-09-03T14:36:39.047Z",
+      "_id": "6a9985f7dc6bcc72cf1355b5",
+      "createdAt": "2026-09-03T14:36:39.048Z"
+    },
+    {
+      "sequence": 79,
+      "action": "AUTH_LOGIN",
+      "entityType": "User",
+      "entityId": "6a998244dc6bcc72cf135516",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "26a47a156094219bd6fb9c8d55d981b1d0569a287988388a17aca8fdf1310a6d",
+      "currentHash": "4be4425fcf17ec60bcba0f034095f779c1a0ec29cc99322ae89747de3ba221fc",
+      "metadata": {
+        "email": "reviewer@complybd.com",
+        "role": "reviewer"
+      },
+      "timestamp": "2026-09-03T14:36:39.180Z",
+      "_id": "6a9985f7dc6bcc72cf1355b6",
+      "createdAt": "2026-09-03T14:36:39.180Z"
+    },
+    {
+      "sequence": 80,
+      "action": "ALERT_ACKNOWLEDGED",
+      "entityType": "Alert",
+      "entityId": "6a9985aadc6bcc72cf1355ac",
+      "actorId": "6a998244dc6bcc72cf135517",
+      "previousHash": "4be4425fcf17ec60bcba0f034095f779c1a0ec29cc99322ae89747de3ba221fc",
+      "currentHash": "be618d11ce11dd9c644aa02540886729a0c6b10029991f53004c88f5fb639642",
+      "metadata": {
+        "businessId": "6a998244dc6bcc72cf13551a"
+      },
+      "timestamp": "2026-09-03T14:36:39.266Z",
+      "_id": "6a9985f7dc6bcc72cf1355b7",
+      "createdAt": "2026-09-03T14:36:39.266Z"
+    },
+    {
+      "sequence": 81,
+      "action": "OBLIGATION_EXTRACTED",
+      "entityType": "Obligation",
+      "entityId": "6a9985f7dc6bcc72cf1355b8",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "be618d11ce11dd9c644aa02540886729a0c6b10029991f53004c88f5fb639642",
+      "currentHash": "49f751e8faeac1d510c3d383e9242326df4f460c5213535c48165fc7b14bae24",
+      "metadata": {
+        "obligationType": "VAT Rate Change",
+        "businessCategory": "Restaurant",
+        "confidence": 96,
+        "groundingStatus": "grounded",
+        "extractionMethod": "deterministic-demo"
+      },
+      "timestamp": "2026-09-03T14:36:39.303Z",
+      "_id": "6a9985f7dc6bcc72cf1355b9",
+      "createdAt": "2026-09-03T14:36:39.303Z"
+    },
+    {
+      "sequence": 82,
+      "action": "CIRCULAR_PROCESSED",
+      "entityType": "Circular",
+      "entityId": "6a998244dc6bcc72cf135523",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "49f751e8faeac1d510c3d383e9242326df4f460c5213535c48165fc7b14bae24",
+      "currentHash": "395ffd03c2153970ec31552b27eb4e41c6cf97cd4bf58c989a413d09478bedae",
+      "metadata": {
+        "pipelineVersion": "2.0.0",
+        "extractionMethod": "deterministic-demo",
+        "confidence": 96,
+        "confidenceBand": "high",
+        "groundingScore": 0.98,
+        "reviewStatus": "verified",
+        "ungroundedFields": []
+      },
+      "timestamp": "2026-09-03T14:36:39.303Z",
+      "_id": "6a9985f7dc6bcc72cf1355bb",
+      "createdAt": "2026-09-03T14:36:39.303Z"
+    },
+    {
+      "sequence": 83,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9985f7dc6bcc72cf1355bc",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "395ffd03c2153970ec31552b27eb4e41c6cf97cd4bf58c989a413d09478bedae",
+      "currentHash": "7f094918e4fdb86eff71fa5935676aebfba887314b8f796e4b4f99ab1b3df0fe",
+      "metadata": {
+        "obligationId": "6a9985f7dc6bcc72cf1355b8",
+        "businessId": "6a998244dc6bcc72cf13551a",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:36:39.304Z",
+      "_id": "6a9985f7dc6bcc72cf1355be",
+      "createdAt": "2026-09-03T14:36:39.304Z"
+    },
+    {
+      "sequence": 84,
+      "action": "ALERT_GENERATED",
+      "entityType": "Alert",
+      "entityId": "6a9985f7dc6bcc72cf1355bd",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "7f094918e4fdb86eff71fa5935676aebfba887314b8f796e4b4f99ab1b3df0fe",
+      "currentHash": "5481141ef954c0550013021442aca2e3e3fa403bf554145563ec6650a4df8efc",
+      "metadata": {
+        "obligationId": "6a9985f7dc6bcc72cf1355b8",
+        "businessId": "6a998244dc6bcc72cf13551b",
+        "priority": "high",
+        "effectiveDate": "2026-09-01T00:00:00.000Z"
+      },
+      "timestamp": "2026-09-03T14:36:39.304Z",
+      "_id": "6a9985f7dc6bcc72cf1355bf",
+      "createdAt": "2026-09-03T14:36:39.304Z"
+    },
+    {
+      "sequence": 85,
+      "action": "ALERT_PUBLISHED",
+      "entityType": "Obligation",
+      "entityId": "6a9985f7dc6bcc72cf1355b8",
+      "actorId": "6a998244dc6bcc72cf135515",
+      "previousHash": "5481141ef954c0550013021442aca2e3e3fa403bf554145563ec6650a4df8efc",
+      "currentHash": "5097dbebf9d1bd8bc9319da8be1eaac40b3dd620dce7593841a1379d531ffd9d",
+      "metadata": {
+        "count": 2,
+        "autoVerified": true
+      },
+      "timestamp": "2026-09-03T14:36:39.304Z",
+      "_id": "6a9985f7dc6bcc72cf1355c0",
+      "createdAt": "2026-09-03T14:36:39.304Z"
+    },
+    {
+      "sequence": 86,
+      "action": "AUDIT_ANCHORED",
+      "entityType": "Anchor",
+      "entityId": "6a9985f7dc6bcc72cf1355c1",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "previousHash": "5097dbebf9d1bd8bc9319da8be1eaac40b3dd620dce7593841a1379d531ffd9d",
+      "currentHash": "5ecbb0da18c5348272babf13e2eea25d35b5cdb0967405fc8c4e9e4461d07d60",
+      "metadata": {
+        "entryCount": 11,
+        "entryCountTotal": 86,
+        "mode": "demo",
+        "submitted": false,
+        "anchorId": "0xeac113197b4ab812b34ece77ae4062ca1c2b6aa805bad0b3372eb838cd37efea"
+      },
+      "timestamp": "2026-09-03T14:36:39.422Z",
+      "_id": "6a9985f7dc6bcc72cf1355c2",
+      "createdAt": "2026-09-03T14:36:39.422Z"
+    }
+  ],
+  "Anchor": [
+    {
+      "merkleRoot": "6307afd9433adb0e457f2ab85efc1ac8f314a81f0a0f91c5593c2e62cdf95bee",
+      "committedHash": "30376e85c86cdca77d5a89eea59b8b70dd11c3c203ca60f1f74825e2b95617bd",
+      "latestHash": "cb6aae43fd89e4457a40e3425b4fab1aff83a021dfe25e6b918e7378beed32d3",
+      "fromHash": "1df88878c555ceb0109c7a904b5e62db65adbb907ffb3240cc99d21427e68cd9",
+      "toHash": "cb6aae43fd89e4457a40e3425b4fab1aff83a021dfe25e6b918e7378beed32d3",
+      "entryCount": 7,
+      "entryCountTotal": 7,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0x5c66c40c24cce2e76c9110cd11b595d86fa6a65625974b481d010b04569517af",
+      "txHash": "0x5c66c40c24cce2e76c9110cd11b595d86fa6a65625974b481d010b04569517af",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:20:52.573Z",
+      "_id": "6a998244dc6bcc72cf13554c",
+      "createdAt": "2026-09-03T14:20:52.573Z"
+    },
+    {
+      "merkleRoot": "dfd7547c2c92d9cdcaa5a730718fc4b729c1d4e94ccb37fa44b6960448b50c97",
+      "committedHash": "cb53ef6b6a410b49abf40a6c1816bad9dec93925590fec1a9387744812bede2f",
+      "latestHash": "d656a63a561938032196e0717e8d32d1b4f3b0f6b0f3ac2d65a6cfc83f7f61db",
+      "fromHash": "5263e14c49c6d887584610534a818de3f939aa7dfaeec7155dc6c44e1c166ad0",
+      "toHash": "d656a63a561938032196e0717e8d32d1b4f3b0f6b0f3ac2d65a6cfc83f7f61db",
+      "entryCount": 16,
+      "entryCountTotal": 23,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0x49c8a194e15c16cb3009c741fb2a28934f4767b2abb39e363ae0a2e6f390fa44",
+      "txHash": "0x49c8a194e15c16cb3009c741fb2a28934f4767b2abb39e363ae0a2e6f390fa44",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:31:11.795Z",
+      "_id": "6a9984afdc6bcc72cf135563",
+      "createdAt": "2026-09-03T14:31:11.795Z"
+    },
+    {
+      "merkleRoot": "6534449334fbf7503d6f4c3203eeb84e788c57924419438b906417d721fd826a",
+      "committedHash": "9d708a436a8f56393d04ea9db9bb49daef09904184c178f01d6905dca408354e",
+      "latestHash": "33b3ffd9630c2145f983002c5c35ba8cc478d3464a170940420c8b677731857b",
+      "fromHash": "aaed5d8f9b0f43c4cc88d82125a5100d506040cb306be0f1e3e21b186b9f6676",
+      "toHash": "33b3ffd9630c2145f983002c5c35ba8cc478d3464a170940420c8b677731857b",
+      "entryCount": 14,
+      "entryCountTotal": 37,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0x9e94c22e24a0603c02fae76eedf99c315e135d157cbb73446640f18fab4662d1",
+      "txHash": "0x9e94c22e24a0603c02fae76eedf99c315e135d157cbb73446640f18fab4662d1",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:32:23.010Z",
+      "_id": "6a9984f7dc6bcc72cf135578",
+      "createdAt": "2026-09-03T14:32:23.010Z"
+    },
+    {
+      "merkleRoot": "4f86a98300f94e4aedd7225927695b6cd955aa675dcc2ba77501ab23176a45d3",
+      "committedHash": "53bb82bf0687d825b41df2594bd35bed04f6dc0d009445fe2d3ba73230c2ed9f",
+      "latestHash": "fbafe4ab4eafa204d47b881aa9b61eb91d3f0933daf394cf1c62d85bbdb1abd2",
+      "fromHash": "e3dba24a6e64319d6f1da1e40dbc9c962e8ca04c1978d6c4b5bb902450330dda",
+      "toHash": "fbafe4ab4eafa204d47b881aa9b61eb91d3f0933daf394cf1c62d85bbdb1abd2",
+      "entryCount": 13,
+      "entryCountTotal": 50,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0x96fc20bb822e68616ffa6c5d08fd771f65bf2ab89cc61d95a955e3d3e38ee233",
+      "txHash": "0x96fc20bb822e68616ffa6c5d08fd771f65bf2ab89cc61d95a955e3d3e38ee233",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:33:55.189Z",
+      "_id": "6a998553dc6bcc72cf13558c",
+      "createdAt": "2026-09-03T14:33:55.190Z"
+    },
+    {
+      "merkleRoot": "bdc1237756bbed8f98c5f739ad911a5f7d04a40e9c5f904d19f8b94199aa1b02",
+      "committedHash": "4e722bcaea1587148aa37454bb9eb59e218fe291c731216fc52288a48a4a0230",
+      "latestHash": "93fa6e0fc9d0b5b64f58222c1b5a5c22c4cf96052b7044b1a626deecabf2754b",
+      "fromHash": "9c08384e1d5cbb77b785bed72b7c2d7cdc4e5f33a89a8bd4ec9cb1a60b67aba9",
+      "toHash": "93fa6e0fc9d0b5b64f58222c1b5a5c22c4cf96052b7044b1a626deecabf2754b",
+      "entryCount": 14,
+      "entryCountTotal": 64,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0x6933967b487001849828af9f07e1ad53174f77776d5fbdbc3f3638b7420b4d20",
+      "txHash": "0x6933967b487001849828af9f07e1ad53174f77776d5fbdbc3f3638b7420b4d20",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:34:21.385Z",
+      "_id": "6a99856ddc6bcc72cf1355a1",
+      "createdAt": "2026-09-03T14:34:21.385Z"
+    },
+    {
+      "merkleRoot": "48e39923e144e477e8274fb0d712493532e7a6097ce83bd34fa47e5e6da06fae",
+      "committedHash": "65da66a124f95c405e7cf2939201e5b06de1778a320b6d17b2f2c9def45ff285",
+      "latestHash": "478adc87c14fc22aeb36e985b233a1ff1d0cc6608b07351b165288d5080757e3",
+      "fromHash": "215dc92ad4ad1d39103ae1205582a806cbf863224be4c16b709265b1b02f5a83",
+      "toHash": "478adc87c14fc22aeb36e985b233a1ff1d0cc6608b07351b165288d5080757e3",
+      "entryCount": 11,
+      "entryCountTotal": 75,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0xdab66b020817f050ab9046a9c97ed521ca3365cd4f90f20de846e176b667ffe3",
+      "txHash": "0xdab66b020817f050ab9046a9c97ed521ca3365cd4f90f20de846e176b667ffe3",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:35:22.664Z",
+      "_id": "6a9985aadc6bcc72cf1355b1",
+      "createdAt": "2026-09-03T14:35:22.664Z"
+    },
+    {
+      "merkleRoot": "ddc8fdc99e9022a0aa586510dcc4ff35322a798b7fb85f7fb524a5c1260f0e16",
+      "committedHash": "31c4d718bb02e6a43ab9e8ac1be65b245e9c8b0b1cf7b03271d49e52f5a8d8bf",
+      "latestHash": "5097dbebf9d1bd8bc9319da8be1eaac40b3dd620dce7593841a1379d531ffd9d",
+      "fromHash": "d6574e9b2bc06ea9559303d8c64acfec0d973a15f25c51bda8ad31b18c344ce5",
+      "toHash": "5097dbebf9d1bd8bc9319da8be1eaac40b3dd620dce7593841a1379d531ffd9d",
+      "entryCount": 11,
+      "entryCountTotal": 86,
+      "chain": "ComplyBD prototype ledger (simulated)",
+      "network": "ComplyBD prototype ledger (simulated)",
+      "mode": "demo",
+      "submitted": false,
+      "label": "Prototype blockchain anchor",
+      "note": "Simulated anchor derived deterministically from the audit hash. Not a live network transaction.",
+      "explorerUrl": null,
+      "anchorId": "0xeac113197b4ab812b34ece77ae4062ca1c2b6aa805bad0b3372eb838cd37efea",
+      "txHash": "0xeac113197b4ab812b34ece77ae4062ca1c2b6aa805bad0b3372eb838cd37efea",
+      "status": "anchored",
+      "anchoredAt": "2026-09-03T14:36:39.422Z",
+      "_id": "6a9985f7dc6bcc72cf1355c1",
+      "createdAt": "2026-09-03T14:36:39.422Z"
+    }
+  ],
+  "ObligationVersion": [
+    {
+      "obligationId": "6a998244dc6bcc72cf135525",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ, যেটি বেশি, আরোপ করা যাবে",
+      "requiredAction": "চালানে ১৫% মূসক আলাদাভাবে দেখান এবং POS/বিলিং সিস্টেমে নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১৫ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য। চালানে মূসক আলাদা দেখান এবং মাসিক ই-রিটার্ন দিন।",
+      "confidence": 94,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135536",
+      "createdAt": "2026-09-03T14:20:52.568Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135525",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী and published to matching businesses.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ, যেটি বেশি, আরোপ করা যাবে",
+      "requiredAction": "চালানে ১৫% মূসক আলাদাভাবে দেখান এবং POS/বিলিং সিস্টেমে নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১৫ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ ব্যবসায় ১৫% মূসক প্রযোজ্য। চালানে মূসক আলাদা দেখান এবং মাসিক ই-রিটার্ন দিন।",
+      "confidence": 94,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135537",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135526",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "E-Return Filing",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ",
+      "requiredAction": "প্রতি মাসের ১৫ তারিখের মধ্যে ই-পেপারলেস প্ল্যাটফর্মে মূসক রিটার্ন দাখিল করুন।",
+      "summaryBangla": "রেস্তোরাঁগুলোকে ই-পেপারলেস প্ল্যাটফর্মে মাসিক মূসক রিটার্ন দাখিল করতে হবে।",
+      "confidence": 81,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135538",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135526",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী and published to matching businesses.",
+      "businessCategory": "Restaurant",
+      "obligationType": "E-Return Filing",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ",
+      "requiredAction": "প্রতি মাসের ১৫ তারিখের মধ্যে ই-পেপারলেস প্ল্যাটফর্মে মূসক রিটার্ন দাখিল করুন।",
+      "summaryBangla": "রেস্তোরাঁগুলোকে ই-পেপারলেস প্ল্যাটফর্মে মাসিক মূসক রিটার্ন দাখিল করতে হবে।",
+      "confidence": 81,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135539",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135527",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Retail Shop",
+      "obligationType": "EFD Device Mandate",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৫০,০০০ টাকা এবং নিবন্ধন স্থগিত হতে পারে",
+      "requiredAction": "অনুমোদিত ইলেকট্রনিক ফিসকাল ডিভাইস স্থাপন করুন এবং সংযোগ সচল রাখুন।",
+      "summaryBangla": "১ নভেম্বর ২০২৬ থেকে ৫০ লক্ষ টাকার অধিক টার্নওভারের খুচরা দোকানে EFD স্থাপন বাধ্যতামূলক।",
+      "confidence": 90,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553a",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135527",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী and published to matching businesses.",
+      "businessCategory": "Retail Shop",
+      "obligationType": "EFD Device Mandate",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৫০,০০০ টাকা এবং নিবন্ধন স্থগিত হতে পারে",
+      "requiredAction": "অনুমোদিত ইলেকট্রনিক ফিসকাল ডিভাইস স্থাপন করুন এবং সংযোগ সচল রাখুন।",
+      "summaryBangla": "১ নভেম্বর ২০২৬ থেকে ৫০ লক্ষ টাকার অধিক টার্নওভারের খুচরা দোকানে EFD স্থাপন বাধ্যতামূলক।",
+      "confidence": 90,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553b",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135528",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Electronics Shop",
+      "obligationType": "Invoice Data Fields",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৫০,০০০ টাকা",
+      "requiredAction": "চালানে পণ্যের সিরিয়াল নম্বর ও ওয়ারেন্টি তথ্য যোগ করুন।",
+      "summaryBangla": "ইলেকট্রনিক্স দোকানের চালানে পণ্যের সিরিয়াল নম্বর ও ওয়ারেন্টি তথ্য থাকতে হবে।",
+      "confidence": 77,
+      "groundingStatus": "partial",
+      "reviewStatus": "pending",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553c",
+      "createdAt": "2026-09-03T14:20:52.569Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135529",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Retail Shop",
+      "obligationType": "Server Connectivity",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "ডিভাইস সংযোগ বিচ্ছিন্ন রাখা বা চালান ইস্যু না করা হলে জরিমানা ৫০,০০০ টাকা",
+      "requiredAction": "EFD ডিভাইস অনলাইনে রাখুন; সংযোগ বিচ্ছিন্ন হলে দ্রুত ঠিক করান।",
+      "summaryBangla": "EFD অফলাইনে রাখা যাবে না; চালান এনবিআর সার্ভারে স্বয়ংক্রিয় যাবে — এই খণ্ডের কিছু শর্ত উৎস পাঠে পুরোপুরি মিলছে না।",
+      "confidence": 38,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "needs_review",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553d",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552a",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Clothing Business",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "স্থানীয় সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "পোশাক খুচরা প্রতিষ্ঠান স্থানীয় সরবরাহকারীকে পরিশোধে ৫% উৎসে কর কর্তন করবে।",
+      "confidence": 86,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553e",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552a",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী and published to matching businesses.",
+      "businessCategory": "Clothing Business",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "স্থানীয় সরবরাহকারীকে পরিশোধের সময় ৫% উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "পোশাক খুচরা প্রতিষ্ঠান স্থানীয় সরবরাহকারীকে পরিশোধে ৫% উৎসে কর কর্তন করবে।",
+      "confidence": 86,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf13553f",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552b",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "BIN on Invoice",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ",
+      "requiredAction": "প্রতিটি চালানে প্রতিষ্ঠানের BIN নম্বর উল্লেখ করুন।",
+      "summaryBangla": "মূসক নিবন্ধিত ক্ষুদ্র উৎপাদনকারীকে চালানে BIN উল্লেখ করতে হবে।",
+      "confidence": 72,
+      "groundingStatus": "partial",
+      "reviewStatus": "pending",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135540",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552c",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Cash Transaction Limit",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ",
+      "requiredAction": "২ লক্ষ টাকার বেশি লেনদেনে ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "summaryBangla": "কারখানায় ২ লক্ষ টাকার অধিক নগদ লেনদেন নিষিদ্ধ; ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "confidence": 22,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "rejected",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135541",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552c",
+      "version": 2,
+      "changeType": "rejected",
+      "changeNote": "Rejected by নাবিলা চৌধুরী. Not supported by the circular text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Cash Transaction Limit",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ",
+      "requiredAction": "২ লক্ষ টাকার বেশি লেনদেনে ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "summaryBangla": "কারখানায় ২ লক্ষ টাকার অধিক নগদ লেনদেন নিষিদ্ধ; ব্যাংক ট্রান্সফার ব্যবহার করুন।",
+      "confidence": 22,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "rejected",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135542",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552d",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted from the circular and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "Invoice Display",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা",
+      "requiredAction": "প্রতিটি চালানে মূসকের পরিমাণ পৃথক লাইনে দেখান।",
+      "summaryBangla": "প্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে।",
+      "confidence": 88,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135543",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf13552d",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী and published to matching businesses.",
+      "businessCategory": "Restaurant",
+      "obligationType": "Invoice Display",
+      "effectiveDate": "2026-09-15T00:00:00.000Z",
+      "penalty": "জরিমানা ২৫,০০০ টাকা",
+      "requiredAction": "প্রতিটি চালানে মূসকের পরিমাণ পৃথক লাইনে দেখান।",
+      "summaryBangla": "প্রতিটি রেস্তোরাঁ চালানে মূসক পৃথকভাবে প্রদর্শন করতে হবে।",
+      "confidence": 88,
+      "groundingStatus": "grounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "",
+      "_id": "6a998244dc6bcc72cf135544",
+      "createdAt": "2026-09-03T14:20:52.570Z"
+    },
+    {
+      "obligationId": "6a998244dc6bcc72cf135529",
+      "version": 2,
+      "changeType": "verified",
+      "changeNote": "Approved by নাবিলা চৌধুরী.",
+      "businessCategory": "Retail Shop",
+      "obligationType": "Server Connectivity",
+      "effectiveDate": "2026-11-01T00:00:00.000Z",
+      "penalty": "ডিভাইস সংযোগ বিচ্ছিন্ন রাখা বা চালান ইস্যু না করা হলে জরিমানা ৫০,০০০ টাকা",
+      "requiredAction": "EFD ডিভাইস অনলাইনে রাখুন; সংযোগ বিচ্ছিন্ন হলে দ্রুত ঠিক করান।",
+      "summaryBangla": "EFD অফলাইনে রাখা যাবে না; চালান এনবিআর সার্ভারে স্বয়ংক্রিয় যাবে — এই খণ্ডের কিছু শর্ত উৎস পাঠে পুরোপুরি মিলছে না।",
+      "confidence": 38,
+      "groundingStatus": "ungrounded",
+      "reviewStatus": "verified",
+      "actorId": "6a998244dc6bcc72cf135516",
+      "actorName": "নাবিলা চৌধুরী",
+      "auditHash": "ca0a2482a7f19de29e627e94eb1d0420633a1927f748a41af968ac8f84240c83",
+      "_id": "6a9984afdc6bcc72cf135559",
+      "createdAt": "2026-09-03T14:31:11.608Z"
+    },
+    {
+      "obligationId": "6a9984afdc6bcc72cf13555a",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "7c3f5815e383b89e348d644b023e9abf848887e977c35c8cc53096e1f9eb9640",
+      "_id": "6a9984afdc6bcc72cf13555c",
+      "createdAt": "2026-09-03T14:31:11.711Z"
+    },
+    {
+      "obligationId": "6a9984f6dc6bcc72cf13556a",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "437190445cb887d904c3c78e220937355d2fd69c0722212e726083af3aa59653",
+      "_id": "6a9984f6dc6bcc72cf13556c",
+      "createdAt": "2026-09-03T14:32:22.897Z"
+    },
+    {
+      "obligationId": "6a9984f6dc6bcc72cf135573",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "3a993e5232036146f3d50583c35e8af1b0ce6bf5ea2a0c8a0424c98acb32c48a",
+      "_id": "6a9984f6dc6bcc72cf135575",
+      "createdAt": "2026-09-03T14:32:22.916Z"
+    },
+    {
+      "obligationId": "6a998553dc6bcc72cf13557e",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "e912ec8cd802942e8cb7ac67f6fb39c789ec840c9c3c08c76dad9e1fbccb97d6",
+      "_id": "6a998553dc6bcc72cf135580",
+      "createdAt": "2026-09-03T14:33:55.089Z"
+    },
+    {
+      "obligationId": "6a998553dc6bcc72cf135587",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "48e8cdb397b0e98e2add65d71209e4946067b895d76f799c2ca3db2524b75bce",
+      "_id": "6a998553dc6bcc72cf135589",
+      "createdAt": "2026-09-03T14:33:55.112Z"
+    },
+    {
+      "obligationId": "6a99856ddc6bcc72cf135593",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "0d03276feb704855565a87a7a76d00b5e98f3894fb15df5aac8e7a1532152bcc",
+      "_id": "6a99856ddc6bcc72cf135595",
+      "createdAt": "2026-09-03T14:34:21.290Z"
+    },
+    {
+      "obligationId": "6a99856ddc6bcc72cf13559c",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Small Manufacturer",
+      "obligationType": "Withholding Tax",
+      "effectiveDate": "2026-12-15T00:00:00.000Z",
+      "penalty": "জরিমানা অকর্তিত অর্থের সমপরিমাণ এবং ভবিষ্যৎ ক্রেডিট স্থগিত",
+      "requiredAction": "১৫ ডিসেম্বর ২০২৬ তারিখ থেকে সরবরাহকারীকে পরিশোধের সময় নির্ধারিত হারে উৎসে কর কর্তন করে জমা দিন।",
+      "summaryBangla": "১৫ ডিসেম্বর ২০২৬ থেকে ক্ষুদ্র উৎপাদনকারী শ্রেণির ব্যবসাকে ৫% উৎসে কর কর্তন করতে হবে। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "dcd614f17413e6a598e7c8f7fb83779da0c790bb280d19ad514b9fda0717c1b9",
+      "_id": "6a99856ddc6bcc72cf13559e",
+      "createdAt": "2026-09-03T14:34:21.316Z"
+    },
+    {
+      "obligationId": "6a9985aadc6bcc72cf1355a8",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "ca48b80576a82bfad9a0370d889ba40a5d4b55efc2164bf259241d621117bd98",
+      "_id": "6a9985aadc6bcc72cf1355aa",
+      "createdAt": "2026-09-03T14:35:22.533Z"
+    },
+    {
+      "obligationId": "6a9985f7dc6bcc72cf1355b8",
+      "version": 1,
+      "changeType": "extracted",
+      "changeNote": "Extracted by Deterministic demo engine and checked against the source text.",
+      "businessCategory": "Restaurant",
+      "obligationType": "VAT Rate Change",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "penalty": "জরিমানা ৩০,০০০ টাকা অথবা অপ্রদত্ত করের সমপরিমাণ অর্থ, যাহা অধিক হয়, আরোপ করা হইবে",
+      "requiredAction": "১ সেপ্টেম্বর ২০২৬ তারিখ থেকে চালানে ১৫% মূসক আলাদাভাবে দেখান এবং হিসাব ব্যবস্থায় নতুন হার হালনাগাদ করুন।",
+      "summaryBangla": "১ সেপ্টেম্বর ২০২৬ থেকে রেস্তোরাঁ শ্রেণির ব্যবসায় ১৫% মূসক প্রযোজ্য। অমান্য করলে জরিমানার ঝুঁকি রয়েছে।",
+      "confidence": 96,
+      "confidenceBand": "high",
+      "groundingStatus": "grounded",
+      "overallGroundingScore": 0.98,
+      "reviewStatus": "verified",
+      "extractionMethod": "deterministic-demo",
+      "pipelineVersion": "2.0.0",
+      "actorId": null,
+      "actorName": "Extraction pipeline",
+      "auditHash": "49f751e8faeac1d510c3d383e9242326df4f460c5213535c48165fc7b14bae24",
+      "_id": "6a9985f7dc6bcc72cf1355ba",
+      "createdAt": "2026-09-03T14:36:39.303Z"
+    }
+  ]
+}

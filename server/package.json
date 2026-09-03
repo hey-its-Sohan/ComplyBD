@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
-    "seed": "node src/seed/run.js"
+    "seed": "node src/seed/run.js",
+    "test:pipeline": "node src/services/pipeline.test.js",
+    "test:dashboard": "node src/routes/dashboard.test.js",
+    "test": "node src/services/pipeline.test.js && node src/utils/audit.test.js && node src/routes/dashboard.test.js && node src/routes/audit.test.js && node src/tests/e2e.test.js",
+    "test:audit": "node src/utils/audit.test.js",
+    "test:live": "node test_all_features.js",
+    "test:routes": "node src/routes/audit.test.js",
+    "test:e2e": "node src/tests/e2e.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -56,4 +56,31 @@ router.patch("/:id", authRequired, async (req, res) => {
   res.json(populated);
 });
 
+/**
+ * POST /api/alerts/:id/acknowledge
+ * The owner's "আমি বুঝেছি" button. Kept separate from the generic status patch
+ * so the moment of acknowledgement is recorded with its own timestamp.
+ */
+router.post("/:id/acknowledge", authRequired, async (req, res) => {
+  const alert = await Alert.findById(req.params.id);
+  if (!alert) return res.status(404).json({ message: "Alert not found" });
+
+  alert.status = "acknowledged";
+  alert.acknowledgedAt = new Date();
+  await alert.save();
+
+  await writeAudit({
+    action: "ALERT_ACKNOWLEDGED",
+    entityType: "Alert",
+    entityId: alert._id,
+    actorId: req.user._id,
+    metadata: { businessId: String(alert.businessId) },
+  });
+
+  const populated = await Alert.findById(alert._id)
+    .populate({ path: "obligationId", populate: { path: "circularId" } })
+    .populate("businessId");
+  res.json(populated);
+});
+
 module.exports = router;

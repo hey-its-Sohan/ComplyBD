@@ -9,6 +9,11 @@ export default {
           50: "#f3f8f5",
           100: "#dcebe3",
           200: "#b7d4c5",
+          // 300 and 400 carry the active-evidence highlight in the source
+          // viewers, so they have to exist as real values rather than being
+          // implied by the neighbouring shades.
+          300: "#8dbca4",
+          400: "#5c9f7d",
           500: "#2f7d5b",
           600: "#1f6b4c",
           700: "#18563d",

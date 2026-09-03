@@ -21,6 +21,9 @@ const alertRoutes = require("./routes/alerts");
 const reviewRoutes = require("./routes/reviews");
 const auditRoutes = require("./routes/audit");
 const dashboardRoutes = require("./routes/dashboard");
+const pipelineRoutes = require("./routes/pipeline");
+const blockchainRoutes = require("./routes/blockchain");
+const demoRoutes = require("./routes/demo");
 
 const app = express();
 app.use(cors());
@@ -39,6 +42,9 @@ app.use("/api/alerts", alertRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/audit", auditRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/pipeline", pipelineRoutes);
+app.use("/api/blockchain", blockchainRoutes);
+app.use("/api/demo", demoRoutes);
 
 app.get("/api/me/ping", authRequired, (req, res) => {
   res.json({ user: req.user });
@@ -57,9 +63,23 @@ async function start() {
   app.listen(PORT, () => {
     console.log(`ComplyBD API running on http://localhost:${PORT}`);
   });
-  setInterval(() => {
-    anchorAuditTrail().catch((err) => console.warn("Anchor skipped:", err.message));
-  }, 60 * 1000);
+  // Periodic anchoring is opt-in and off by default.
+  //
+  // The whitepaper's model is periodic anchoring, and this is that mechanism.
+  // But a background timer firing every minute would append an AUDIT_ANCHORED
+  // record each time, burying the interesting entries in the timeline, and it
+  // would silently anchor mid-demo so the presenter's own "Create blockchain
+  // anchor" click has nothing left to cover. Manual anchoring is always
+  // available from the UI; set an interval only for an unattended deployment.
+  const autoAnchorMs = Number(process.env.AUTO_ANCHOR_INTERVAL_MS || 0);
+  if (autoAnchorMs > 0) {
+    console.log(`Automatic audit anchoring every ${Math.round(autoAnchorMs / 1000)}s`);
+    const timer = setInterval(() => {
+      anchorAuditTrail().catch((err) => console.warn("Anchor skipped:", err.message));
+    }, autoAnchorMs);
+    // Do not hold the process open on its own account.
+    if (typeof timer.unref === "function") timer.unref();
+  }
 }
 
 start().catch((err) => {
