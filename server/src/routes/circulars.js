@@ -5,6 +5,13 @@ const { authRequired, requireRoles } = require("../middleware/auth");
 const { writeAudit } = require("../utils/audit");
 const { extractObligations } = require("../utils/extract");
 const { matchAndAlert } = require("../utils/match");
+const {
+  runPipeline,
+  buildFieldTable,
+  providerStatus,
+  DISCLAIMER,
+} = require("../services/regulatoryPipeline");
+const { recordVersion } = require("../services/obligationVersions");
 
 const router = express.Router();
 
@@ -73,6 +80,132 @@ router.post("/:id/extract", authRequired, requireRoles("accountant", "reviewer")
   }
 
   res.json({ circular, obligations: created, alertsCreated: alerts.length });
+});
+
+/**
+ * POST /api/circulars/:id/process
+ *
+ * The main pipeline endpoint: extraction -> grounding -> confidence -> routing.
+ * Returns the full trace so the UI can show every stage, not just the answer.
+ *
+ * Query params:
+ *   ?dryRun=true   run the pipeline and return the result without saving
+ */
+router.post("/:id/process", authRequired, requireRoles("accountant", "reviewer"), async (req, res) => {
+  const circular = await Circular.findById(req.params.id);
+  if (!circular) return res.status(404).json({ message: "Circular not found" });
+
+  let result;
+  try {
+    result = await runPipeline(circular);
+  } catch (err) {
+    return res.status(422).json({ message: `Pipeline failed: ${err.message}` });
+  }
+
+  const dryRun = String(req.query.dryRun || "") === "true";
+  const fieldTable = buildFieldTable(result);
+
+  const payload = {
+    circular: {
+      _id: circular._id,
+      title: circular.title,
+      source: circular.source,
+      sourceUrl: circular.sourceUrl,
+      publishedDate: circular.publishedDate,
+      documentText: circular.documentText,
+    },
+    pipelineVersion: result.pipelineVersion,
+    disclaimer: DISCLAIMER,
+    provider: result.provider,
+    providerStatus: providerStatus(),
+    steps: result.steps,
+    trace: result.trace,
+    extraction: result.extraction,
+    fieldTable,
+    fieldGrounding: result.fieldGrounding,
+    overallGroundingScore: result.overallGroundingScore,
+    sourceEvidence: result.sourceEvidence,
+    confidence: result.confidence,
+    routing: result.routing,
+    totalMs: result.totalMs,
+    dryRun,
+  };
+
+  if (dryRun) return res.json({ ...payload, obligation: result.obligationDraft, saved: false });
+
+  // Re-processing replaces the previous pipeline output for this circular, but
+  // only where a human has not already ruled on it, and never touches the
+  // obligations produced by the original extractor.
+  await Obligation.deleteMany({
+    circularId: circular._id,
+    pipelineVersion: { $nin: [null, ""] },
+    reviewStatus: { $in: ["needs_review", "pending"] },
+    verifiedBy: null,
+  });
+
+  const obligation = await Obligation.create({
+    ...result.obligationDraft,
+    circularId: circular._id,
+  });
+
+  circular.status = "extracted";
+  await circular.save();
+
+  const extractEntry = await writeAudit({
+    action: "OBLIGATION_EXTRACTED",
+    entityType: "Obligation",
+    entityId: obligation._id,
+    actorId: req.user._id,
+    metadata: {
+      obligationType: obligation.obligationType,
+      businessCategory: obligation.businessCategory,
+      confidence: obligation.confidence,
+      groundingStatus: obligation.groundingStatus,
+      extractionMethod: obligation.extractionMethod,
+    },
+  });
+
+  // Version 1 is always the machine's draft, before any human touches it.
+  await recordVersion({
+    obligation,
+    changeType: "extracted",
+    changeNote: `Extracted by ${result.provider.label} and checked against the source text.`,
+    actor: null,
+    auditHash: extractEntry?.currentHash || "",
+  });
+
+  await writeAudit({
+    action: "CIRCULAR_PROCESSED",
+    entityType: "Circular",
+    entityId: circular._id,
+    actorId: req.user._id,
+    metadata: {
+      pipelineVersion: result.pipelineVersion,
+      extractionMethod: result.provider.extractionMethod,
+      confidence: result.confidence.score,
+      confidenceBand: result.confidence.band,
+      groundingScore: result.overallGroundingScore,
+      reviewStatus: result.routing.reviewStatus,
+      ungroundedFields: result.confidence.ungroundedFields,
+    },
+  });
+
+  // Auto-verified obligations dispatch alerts immediately. Anything the
+  // grounding layer held back waits for a human in the review queue.
+  let alertsCreated = 0;
+  if (obligation.reviewStatus === "verified") {
+    const alerts = await matchAndAlert(obligation, req.user._id);
+    alertsCreated = alerts.length;
+    await writeAudit({
+      action: "ALERT_PUBLISHED",
+      entityType: "Obligation",
+      entityId: obligation._id,
+      actorId: req.user._id,
+      metadata: { count: alertsCreated, autoVerified: true },
+    });
+  }
+
+  res.json({ ...payload, obligation, alertsCreated, saved: true });
 });
 
 module.exports = router;

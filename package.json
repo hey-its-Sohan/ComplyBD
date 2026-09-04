@@ -1,0 +1,17 @@
+{
+  "name": "complybd",
+  "version": "2.0.0",
+  "private": true,
+  "description": "AI-powered regulatory compliance translator for Bangladeshi SMEs",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server",
+    "test:live": "npm run test:live --prefix server",
+    "test:pipeline": "npm run test:pipeline --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
